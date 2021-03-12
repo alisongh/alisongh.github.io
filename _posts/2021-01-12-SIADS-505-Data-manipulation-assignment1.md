@@ -32,3 +32,55 @@ def example_word_count():
  
 ### Part 1: Names
 Fix the incorrect regex between `### BEGIN CODE` and `### END CODE` to generate a list of names in the simple_string.
+
+```python
+import re
+def names():
+    simple_string = """Amy is 5 years old, and her sister Mary is 2 years old. 
+    Ruth and Peter, their parents, have 3 kids."""
+
+    ### BEGIN CODE  
+    #pattern = r'[A-Za-z]?'
+    #match = re.finditer(pattern, simple_string)
+    ### END CODE  
+    
+    # YOUR CODE HERE
+    pattern = '[A-Z][a-z]*'
+    match = re.findall(pattern, simple_string)
+    #raise NotImplementedError()
+    
+    return match
+    
+names()
+```
+
+```python
+assert len(names()) == 4, "There are four names in the simple_string"
+```
+
+### Part 2: Grades
+The dataset file in [assets/grades.txt](assets/grades.txt) contains multiple lines of people along with their grades in a class. Fix the incorrect regex between `### BEGIN CODE` and `### END CODE` to generate a list of just those students who received a B in the course (e.g., \[\'John Doe\', \'Jane Doe\'\].)
+
+```python
+
+import re
+
+def student_grades():
+    with open ("assets/grades.txt", "r") as file:
+        grades = file.read()
+
+    ### BEGIN CODE
+    # pattern = """(\w+)"""
+    # matches = re.findall(pattern,grades)
+    ### END CODE
+        
+        
+    # YOUR CODE HERE
+    pattern = "[\w]*\ [\w]*(?=:\ B)"
+    matches = re.findall(pattern, grades)
+    #raise NotImplementedError()
+
+    return matches  
+    
+student_grades()
+```
