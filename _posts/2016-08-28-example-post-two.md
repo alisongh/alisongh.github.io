@@ -1,7 +1,8 @@
 ---
-title: History of the Alembic
+title: SIADS 501 Being a Data Scientist
+date: 2021-02-02
 categories:
-- History
+- 501
 feature_text: |
   The History of the Alembic tool
 ---
