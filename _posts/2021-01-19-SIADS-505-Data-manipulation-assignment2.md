@@ -12,7 +12,6 @@ comment: true
 
 [Check previous assignment](https://alisongh.github.io/2021/01/12/SIADS-505-Data-manipulation-assignment1.html)
 
-# Assignment 2
 For this assignment you'll be looking at 2017 data on immunizations from the CDC. Your datafile for this assignment is in [assets/NISPUF17.csv](assets/NISPUF17.csv). A data users guide for this, which you'll need to map the variables in the data to the questions being asked, is available at [assets/NIS-PUF17-DUG.pdf](assets/NIS-PUF17-DUG.pdf). **Note: you may have to go to your Jupyter tree (click on the Coursera image) and navigate to the assignment 2 assets folder to see this PDF file).**
 
 You can also use hint provided for this particular questions by clicking **"Show Hint"** button.
