@@ -26,3 +26,36 @@ Write a function called `proportion_of_education` which returns the proportion o
     "more than high school but not college":0.2,
     "college":0.2}
 ```
+
+```python
+import pandas as pd
+import numpy as np
+
+df = pd.read_csv('assets/NISPUF17.csv', index_col = 0)
+def proportion_of_education():
+    edu = df['EDUC1']
+    mum_edu = np.sort(edu.values)
+    prop_edu = {"less than high school" : 0,
+               "high school" : 0,
+               "more than high school but not college" : 0,
+               "college" : 0}
+    yr = len(mum_edu)
+    prop_edu["less than high school"] = np.sum(mum_edu == 1)/yr
+    prop_edu["high school"] = np.sum(mum_edu == 2)/yr
+    prop_edu["more than high school but not college"] = np.sum(mum_edu == 3)/yr
+    prop_edu["college"] = np.sum(mum_edu == 4)/yr
+    return prop_edu
+
+    # your code goes here
+    # YOUR CODE HERE
+    # raise NotImplementedError()
+```
+
+```python
+assert type(proportion_of_education())==type({}), "You must return a dictionary."
+assert len(proportion_of_education()) == 4, "You have not returned a dictionary with four items in it."
+assert "less than high school" in proportion_of_education().keys(), "You have not returned a dictionary with the correct keys."
+assert "high school" in proportion_of_education().keys(), "You have not returned a dictionary with the correct keys."
+assert "more than high school but not college" in proportion_of_education().keys(), "You have not returned a dictionary with the correct keys."
+assert "college" in proportion_of_education().keys(), "You have not returned a dictionary with the correct keys."
+```
