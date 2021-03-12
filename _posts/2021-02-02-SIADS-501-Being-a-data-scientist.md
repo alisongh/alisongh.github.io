@@ -36,3 +36,9 @@ If he doesn&#39;t want to do any kinds of interviews, I will watch the video on 
 1. &quot;Think carefully about the problem to be solved and about the use scenario.&quot; Remember that each business decision-making problem or concern is unique. They come with diverse goals, constraints, and considerations. Don&#39;t try to use only one tool or way to solve a problem. _ **Problem Formulation - Maxim** _
 
 1. Ask &quot;why?&quot; and &quot;so what?&quot; after every answer you&#39;ve got. The more meaningful questions you raised, the more accurate tool or model you will make. In the real world, there are profusion variables and keys waiting to be used. It is impossible to use them all and critical to keep asking &quot;why?&quot; and &quot;so what?&quot; when I screen them. For example, if I decided to use &quot;the length of the personal statement&quot; to the project, I will ask &quot;why do I believe this variable is essential to the project?&quot; If I don&#39;t use it, how does it affect the model? Moreover, these questions help you to shrink the cost of time of data collection and cleaning. _ **Data collection and cleaning - Question** _
+
+- **Chris Wiggins interview**
+
+1. &quot;People, ideas, and things in that order.&quot; Remember as data science, we work with people, the stakeholders, we train data and use data, but we don&#39;t work with data. All of the tools and methods we choose should be fit with the people we work for. Only we get what our stakeholders want and concern about, then we can start to brainstorm and get ideas about the project accurately. _ **Problem Formulation - Maxim** _
+
+1. &quot;So what?&quot; Keep asking questions to determine we are on the right track. We, as data scientists, need to have a clear and calm mind before opening the Juypter notebook. _ **Problem Formulation - Question** _
