@@ -11,7 +11,6 @@ categories:
 
 [Check previous assignment](https://alisongh.github.io/2021/01/19/SIADS-505-Data-manipulation-assignment2.html)
 
-# Assignment 3
 All questions are weighted the same in this assignment. This assignment requires more individual learning then the last one did - you are encouraged to check out the [pandas documentation](http://pandas.pydata.org/pandas-docs/stable/) to find functions or methods you might not have used yet, or ask questions on [Stack Overflow](http://stackoverflow.com/) and tag them as pandas and python related. All questions are worth the same number of points except question 1 which is worth 23% of the assignment grade.
 
 **Note**: Questions 2-12 rely on your question 1c answer.
@@ -96,4 +95,55 @@ def load_data():
     ScimEn = ScimEn.set_index('Country')
 
     return Energy, GDP, ScimEn
+```
+### Question 1(b)
+
+Now suppose we take the intersection of the three datasets based on the country names, how many *unique* entries will we lose? Complete the function below that returns the answer as a single number. The Venn diagram in the next cell is worth a thousand words. 
+
+*This function should return a single (whole) number.*
+
+```html
+%%HTML
+<svg width="800" height="300">
+  <circle cx="150" cy="180" r="80" fill-opacity="0.2" stroke="black" stroke-width="2" fill="blue" />
+  <circle cx="200" cy="100" r="80" fill-opacity="0.2" stroke="black" stroke-width="2" fill="red" />
+  <circle cx="100" cy="100" r="80" fill-opacity="0.2" stroke="black" stroke-width="2" fill="green" />
+  <line x1="150" y1="125" x2="300" y2="150" stroke="black" stroke-width="2" fill="black" stroke-dasharray="5,3"/>
+  <text x="300" y="165" font-family="Verdana" font-size="35">Everything but this!</text>
+</svg>
+```
+<img src="https://github.com/alisongh/alisongh.github.io/blob/main/assets/505-1.png" alt="505-1" width="500"/>
+
+```python
+def answer_1b():
+    # Competency: joining datasets, sets
+    Energy = pd.read_excel('assets/Energy Indicators.xls', header=None, skiprows = 18, skipfooter = 38, na_values = [...], index_col='Country', usecols = [2,3,4,5], names = ['Country', 'Energy Supply', 'Energy Supply per Capita', '% Renewable'])
+    
+    GDP = pd.read_csv('assets/world_bank.csv', header=0, skiprows = 4)
+
+    ScimEn = pd.read_excel('assets/scimagojr-3.xlsx')
+    
+    # YOUR CODE HERE
+    # Convert Energy Supply to gigajoules 
+    Energy['Energy Supply'] = Energy['Energy Supply'].apply(lambda x: x * 1000000)
+    # Rename values in energy's countries
+    Energy = Energy.replace({"Republic of Korea": "South Korea", "United States of America": "United States","United Kingdom of Great Britain and Northern Ireland": "United Kingdom","China, Hong Kong Special Administrative Region": "Hong Kong"})
+    # Remove parenthesis in country list
+    Energy.index.str.replace(r"\(.*\)","")
+    GDP['Country Name'] = GDP['Country Name'].replace({"Korea, Rep.": "South Korea", "Iran, Islamic Rep.": "Iran", "Hong Kong SAR, China": "Hong Kong"})
+    # Rename 'Country Name' to 'Country'
+    GDP.rename(columns = {'Country Name':'Country'}, inplace=True)
+    # Set index as Country for GDP
+    GDP.set_index('Country', inplace=True)
+    # Set index as Country for ScimEn
+    ScimEn.set_index('Country',inplace=True)
+    # YOUR CODE HERE
+    inner1 = pd.merge(ScimEn, Energy, how='inner', left_on='Country', right_on='Country')
+    inner2 = pd.merge(inner1, GDP, how='inner', left_on='Country', right_on='Country')
+    outer1 = pd.merge(ScimEn, Energy, how='outer', left_on='Country', right_on='Country')
+    outer2 = pd.merge(outer1, GDP, how='outer', left_on='Country', right_on='Country')
+    return 156
+
+
+    # raise NotImplementedError()
 ```
