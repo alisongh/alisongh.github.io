@@ -42,7 +42,7 @@ If he doesn&#39;t want to do any kinds of interviews, I will watch the video on 
 1. &quot;People, ideas, and things in that order.&quot; Remember as data science, we work with people, the stakeholders, we train data and use data, but we don&#39;t work with data. All of the tools and methods we choose should be fit with the people we work for. Only we get what our stakeholders want and concern about, then we can start to brainstorm and get ideas about the project accurately. _ **Problem Formulation - Maxim** _
 
 1. &quot;So what?&quot; Keep asking questions to determine we are on the right track. We, as data scientists, need to have a clear and calm mind before opening the Juypter notebook. _ **Problem Formulation - Question** _
-2. 
+
 - **Erin Shellman interview**
 
 1. &quot;Add more tests to the score.&quot; Don&#39;t overestimate your model. Put your model to the real world and test it again and again. The model we created is for solving real-world problems, so you never have too many tests before finishing the project. Moreover, be aware of deadlines and budgets because there&#39;s no unlimited time and money staying on analysis and tests. It requires me to have time management, project management, and collaborative skills to maintain the smooth operation of projects. _ **Modeling &amp; Analysis - Goal** _
