@@ -84,3 +84,49 @@ def student_grades():
     
 student_grades()
 ```
+
+```python
+assert len(student_grades()) == 16
+```
+
+### Part 3: Logs
+Consider the variable 'logdata' which is a string containing a standard web log. This variable records the access a user makes when visiting a web page (like this one!). Each line of the log has the following items: 
+
+* a host (e.g., ‘146.204.224.152’) 
+* a username (e.g., ‘feest6811’ or sometime '-' since it is missing) 
+* the time a request was made (e.g., ‘21/Jun/2019:15:45:24 -0700’) 
+* the post request type (e.g., ‘POST /incentivize HTTP/1.1’)
+
+Your task is to fix the incorrect regex between `### BEGIN CODE` and `### END CODE` to convert the given data into a list of dictionaries, where each dictionary looks like the following:
+
+```
+example_dict = {"host":"146.204.224.152",
+                "user_name":"feest6811",
+                "time":"21/Jun/2019:15:45:24 -0700",
+                "request":"POST /incentivize HTTP/1.1"}
+```
+
+```python
+import re
+def logs():
+    with open("assets/logdata.txt", "r") as file:
+        logdata = file.read()
+    
+        
+    ### BEGIN CODE    
+    pattern = """
+        (?P<host>[\d]*.[\d]*.[\d]*.[\d]*)
+        (\ -\ )
+        (?P<user_name>[\w-]*)
+        (\ \[)
+        (?P<time>\w*/\w*/.*)
+        (\]\ \")
+        (?P<request>.*)
+        (")
+        """
+    result = []
+    for item in re.finditer(pattern, logdata, re.VERBOSE):
+        result.append(item.groupdict())
+    return result
+logs()
+```
