@@ -50,3 +50,50 @@ Rename the following list of countries (for use in later questions):
 "China, Hong Kong Special Administrative Region": "Hong Kong"```
 
 There are also several countries with parenthesis in their name. Be sure to remove these, e.g. `'Bolivia (Plurinational State of)'` should be `'Bolivia'`.
+
+
+
+**GDP**
+
+Next, load the GDP data from the file `assets/world_bank.csv`, which is a csv containing countries' GDP from 1960 to 2015 from [World Bank](http://data.worldbank.org/indicator/NY.GDP.MKTP.CD). Call this DataFrame `gdp`. 
+
+Make sure to skip the header, and rename the following list of countries:
+
+```"Korea, Rep.": "South Korea", 
+"Iran, Islamic Rep.": "Iran",
+"Hong Kong SAR, China": "Hong Kong"```
+
+
+
+**ScimEn**
+
+Finally, load the [Sciamgo Journal and Country Rank data for Energy Engineering and Power Technology](http://www.scimagojr.com/countryrank.php?category=2102) from the file `assets/scimagojr-3.xlsx`, which ranks countries based on their journal contributions in the aforementioned area. Call this DataFrame `scim_en`.
+
+**For all three datasets, use country names as the index.**
+
+```python
+def load_data():
+    # YOUR CODE HERE
+    # raise NotImplementedError()
+    Energy = pd.read_excel('assets/Energy Indicators.xls',na_values=["..."],header = None,skiprows=18,skipfooter= 38,usecols=[2,3,4,5],names=['Country', 'Energy Supply', 'Energy Supply per Capita', '% Renewable'])
+    Energy['Energy Supply'] = Energy['Energy Supply'].apply(lambda x: x*1000000)
+
+    Energy['Country'] = Energy['Country'].str.replace(r" \(.*\)","")
+    Energy['Country'] = Energy['Country'].str.replace(r"\d*","")
+    Energy['Country'] = Energy['Country'].replace({'Republic of Korea' : 'South Korea',
+                                               'United States of America' : 'United States',
+                                               'United Kingdom of Great Britain and Northern Ireland':'United Kingdom',
+                                               'China, Hong Kong Special Administrative Region':'Hong Kong'})
+    
+    GDP = pd.read_csv('assets/world_bank.csv', skiprows = 4)
+    GDP['Country Name'] = GDP['Country Name'].replace({'Korea, Rep.': 'South Korea', 
+                                                       'Iran, Islamic Rep.': 'Iran', 
+                                                       'Hong Kong SAR, China' : 'Hong Kong'}) 
+    GDP.rename(columns = {'Country Name':'Country'}, inplace=True)
+    ScimEn = pd.read_excel('assets/scimagojr-3.xlsx')
+    Energy = Energy.set_index('Country')
+    GDP = GDP.set_index('Country')
+    ScimEn = ScimEn.set_index('Country')
+
+    return Energy, GDP, ScimEn
+```
