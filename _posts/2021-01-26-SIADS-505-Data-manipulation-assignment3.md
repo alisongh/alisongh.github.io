@@ -147,3 +147,61 @@ def answer_1b():
 
     # raise NotImplementedError()
 ```
+
+### Question 1(c)
+
+Join the three datasets to form a new dataset, using the intersection of country names. Keep only the last 10 years (2006-2015) of GDP data and only the top 15 countries by Scimagojr 'Rank' (Rank 1 through 15). 
+
+The index of the resultant DataFrame should still be the name of the country, and the columns should be 
+
+```['Rank', 'Documents', 'Citable documents', 'Citations', 'Self-citations',
+    'Citations per document', 'H index', 'Energy Supply',
+    'Energy Supply per Capita', '% Renewable', '2006', '2007', '2008',
+    '2009', '2010', '2011', '2012', '2013', '2014', '2015']```.
+
+*This function should return a DataFrame with 20 columns and 15 entries.*
+
+```python
+def answer_1c():
+    # Competency: df manipulation, joining datasets
+    Energy = pd.read_excel('assets/Energy Indicators.xls',na_values=["..."],header = None,skiprows=18,skipfooter= 38,usecols=[2,3,4,5],names=['Country', 'Energy Supply', 'Energy Supply per Capita', '% Renewable'])
+    Energy['Energy Supply'] = Energy['Energy Supply'].apply(lambda x: x*1000000)
+
+    Energy['Country'] = Energy['Country'].str.replace(r" \(.*\)","")
+    Energy['Country'] = Energy['Country'].str.replace(r"\d*","")
+    Energy['Country'] = Energy['Country'].replace({'Republic of Korea' : 'South Korea',
+                                               'United States of America' : 'United States',
+                                               'United Kingdom of Great Britain and Northern Ireland':'United Kingdom',
+                                               'China, Hong Kong Special Administrative Region':'Hong Kong'})
+    
+    GDP = pd.read_csv('assets/world_bank.csv', skiprows = 4)
+    GDP['Country Name'] = GDP['Country Name'].replace({'Korea, Rep.': 'South Korea', 
+                                                       'Iran, Islamic Rep.': 'Iran', 
+                                                       'Hong Kong SAR, China' : 'Hong Kong'}) 
+    
+    ScimEn = pd.read_excel('assets/scimagojr-3.xlsx')
+    
+    merge1 = pd.merge(ScimEn,Energy,how="inner",left_on="Country",right_on="Country")
+    merge1 = merge1[merge1["Rank"]<=15]
+    
+    GDP.rename(columns = {"Country Name":"Country"},inplace=True)
+    GDP = GDP.loc[:,['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015',"Country"]]
+    merge2 = pd.merge(merge1,GDP,how="inner",left_on="Country",right_on="Country").set_index("Country")
+    
+    return merge2
+    # YOUR CODE HERE
+    # raise NotImplementedError()
+```
+
+```python
+your_ans = answer_1c()
+
+assert isinstance(your_ans, pd.DataFrame), "Q1c: Your function should return a DataFrame."
+
+assert your_ans.shape == (15, 20), "Q1c: Your resultant DataFrame should have 20 columns and 15 entries."
+
+assert list(your_ans.columns) == ['Rank', 'Documents', 'Citable documents', 'Citations', 'Self-citations',
+                                 'Citations per document', 'H index', 'Energy Supply','Energy Supply per Capita', '% Renewable', 
+                                 '2006', '2007', '2008','2009', '2010', '2011', '2012', '2013', '2014', '2015'] , "Q1c: The column names should be as specified in the question. "
+del your_ans
+```
