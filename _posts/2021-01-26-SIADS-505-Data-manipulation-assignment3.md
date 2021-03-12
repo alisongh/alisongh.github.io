@@ -205,3 +205,60 @@ assert list(your_ans.columns) == ['Rank', 'Documents', 'Citable documents', 'Cit
                                  '2006', '2007', '2008','2009', '2010', '2011', '2012', '2013', '2014', '2015'] , "Q1c: The column names should be as specified in the question. "
 del your_ans
 ```
+**Note: all subsequent questions rely on the DataFrame returned by your function in Question 1(c) above.**
+
+### Question 2
+What is the average GDP over the last 10 years for each country?
+
+*This function should return a Series named `avgGDP` with 15 countries and their average GDP sorted in descending order.*
+
+```python
+def answer_two():
+    # Competency: indexing, math fn, sorting
+    info=answer_1c()
+    
+    return info[["2006","2007","2008","2009","2010","2011","2012","2013","2014","2015"]].apply(np.mean,axis = 1).sort_values(ascending = False)
+    # YOUR CODE HERE
+    # raise NotImplementedError()
+```
+
+```python
+your_ans = answer_two()
+
+assert isinstance(your_ans, pd.Series), "Q2: You should return a Series. "
+assert your_ans.name == "avgGDP", "Q2: Your Series should have the correct name. "
+
+del your_ans
+```
+### Question 3
+
+By how much had the GDP changed over the 10 year span for the country with the 6th largest average GDP?
+
+*This function should return a single number.*
+
+```python
+def answer_three():
+    # Competency: indexing, broadcasting
+    pre_info = answer_1c()
+    pre_info['avgGDP'] = pre_info[["2006","2007","2008","2009","2010","2011","2012","2013","2014","2015"]].apply(np.mean,axis = 1)
+    pre_info.sort_values(['avgGDP'], ascending=False, inplace=True)
+    
+    return pre_info.iloc[5]['2015']-pre_info.iloc[5]['2006']
+    # YOUR CODE HERE
+    # raise NotImplementedError()
+```
+### Question 4
+
+What is the mean energy supply per capita?
+
+*This function should return a single number.*
+
+```python
+def answer_four():
+    # Competency: math fn
+    pre_info = answer_1c()
+
+    return pre_info['Energy Supply per Capita'].mean()
+    # YOUR CODE HERE
+    # raise NotImplementedError()
+```
