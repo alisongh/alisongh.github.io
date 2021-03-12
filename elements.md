@@ -1,144 +1,100 @@
 ---
-title: Elements
+title: Liwen (Alison) Huang
 feature_text: |
-  A demo of Markdown and HTML includes
-feature_image: "https://picsum.photos/2560/600?image=873"
-excerpt: "A demo of Markdown and HTML includes"
+  A resume can only show a part of my challenging life
+feature_image: "https://picsum.photos/2560/600?image=733"
+excerpt: "Resume can only show part of my challenging life"
 aside: true
 ---
 
-# Heading 1
+![](RackMultipart20210310-4-1l2mdz3_html_e925d6d67cdb36bc.gif)
+Raleigh, NC, 27612 | <liwenh@umich.edu>
 
-## Heading 2
+### SUMMARY
 
-### Heading 3
+- 5+ years of experience in Customer Relations Management including experience in customer service, formulate customer service policy, build, and develop CRM system.
+- 7+ years of experience in the education of international students.
+- Experiences in programming in Python, SQL, JIRA, and Confluence.
+- US citizen and former service member of US Army.
+- Bilingual with fluent verbal and written skills in English and Chinese languages.
+- Experienced in dealing with different cultures and nationalities.
 
-#### Heading 4
+### PROFESSIONAL EXPERIENCES
 
-##### Heading 5
+**Customer Relations Manager**, Full-time, _May 2019 – November 2020_
 
-###### Heading 6
+Sincere Students Service INC., Raleigh, NC
 
-<small>A small element</small>
+- Resolving customer complaints quickly and efficiently.
+- Building and maintaining profitable relationships with key customers.
+- Building and developing a CRM system by JIRA, Confluence, and Trello.
+- Keeping customers updated on the latest products to increase sales.
+- Meeting with managers in the organization to plan strategically.
+- Expanding the customer base by upselling and cross-selling.
+- Understanding key customer individual needs and addressing these.
+- Conducting business reviews using CRM programs.
 
-[A link](https://david.darn.es "A link")
+**Combat Medic Specialist**, Part-time, _May 2016 - present_
 
-Lorem ipsum dolor sit amet, consectetur adip* isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.
+US Army, Greensboro, NC
 
-Duis aute irure dolor in [A link](https://david.darn.es "A link") reprehenderit in voluptate velit esse cillum **bold text** dolore eu fugiat nulla pariatur. Excepteur span element sint occaecat cupidatat non proident, sunt _italicised text_ in culpa qui officia deserunt mollit anim id `some code` est laborum.
+- Administer emergency medical treatment to battlefield casualties.
+- Assist with outpatient and inpatient care and treatment.
+- Instruct Soldier's on Combat Lifesaver/First Responder training course.
+- Manage Soldier's medical readiness, medical supplies, and equipment.
 
-* An item
-* An item
-* An item
-* An item
-* An item
+### SKILLS
 
-1. Item one
-2. Item two
-3. Item three
-4. Item four
-5. Item five
-
-> A simple blockquote
-
-Some HTML...
-
-``` html
-<blockquote cite="http://www.imdb.com/title/tt0284978/quotes/qt1375101">
-  <p>You planning a vacation, Mr. Sullivan?</p>
-  <footer>
-    <a href="http://www.imdb.com/title/tt0284978/quotes/qt1375101">Sunways Security Guard</a>
-  </footer>
-</blockquote>
-```
-
-...CSS...
-
-``` css
-blockquote {
-  text-align: center;
-  font-weight: bold;
-}
-blockquote footer {
-  font-size: .8rem;
-}
-```
-
-...and JavaScript
-
-``` js
-const blockquote = document.querySelector("blockquote")
-const bolden = (keyString, string) =>
-  string.replace(new RegExp(keyString, 'g'), '<strong>'+keyString+'</strong>')
-
-blockquote.innerHTML = bolden("Mr. Sullivan", blockquote.innerHTML)
-```
-
-`Single line of code`
-
-## HTML Includes
-
-### Contact form
-
-{% include site-form.html %}
-
-``` html
-{% raw %}{% include site-form.html %}{% endraw %}
-```
-
-### Demo map embed
-
-{% include map.html id="1UT-2Z-Vg_MG_TrS5X2p8SthsJhc" title="Coffee shop map" %}
-
-``` html
-{% raw %}{% include map.html id="XXXXXX" title="Coffee shop map" %}{% endraw %}
-```
-
-### Button include
-
-{% include button.html text="A button" link="https://david.darn.es" %}
-
-{% include button.html text="A button with icon" link="https://twitter.com/daviddarnes" icon="twitter" %}
-
-``` html
-{% raw %}{% include button.html text="A button" link="https://david.darn.es" %}
-{% include button.html text="A button with icon" link="https://twitter.com/daviddarnes" icon="twitter" %}{% endraw %}
-```
-
-### Icon include
-
-{% include icon.html id="twitter" title="twitter" %} [{% include icon.html id="linkedin" title="twitter" %}](https://www.linkedin.com/in/daviddarnes)
-
-``` html
-{% raw %}{% include icon.html id="twitter" title="twitter" %}
-[{% include icon.html id="linkedin" title="twitter" %}](https://www.linkedin.com/in/daviddarnes){% endraw %}
-```
-
-### Video include
-
-{% include video.html id="zrkcGL5H3MU" title="Siteleaf tutorial video" %}
-
-``` html
-{% raw %}{% include video.html id="zrkcGL5H3MU" title="Siteleaf tutorial video" %}{% endraw %}
-```
+- Management (5 years)
+- SQL, Python, Data Science
+- Customer Services (5+ years)
+- Microsoft Office (5+ years)
+- Chinese/Mandarin
+- NREMT/BLS
 
 
-### Image includes
+### EDUCATION
 
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Image with caption" width="300" height="800" %}
+**Applied Data Science, Master of Science**
 
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Right aligned image" position="right" width="300" height="800" %}
+_University of Michigan, 2023_
 
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Left aligned image" position="left" width="300" height="800" %}
+**Entrepreneurship, Bachelor of Science**
 
-{% include figure.html image="https://picsum.photos/1600/800?image=894" alt="Image with just alt text" %}
+_University of North Carolina at Greensboro, 2015_
 
-``` html
-{% raw %}{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Image with caption" width="300" height="800" %}
+### FURTHER EDUCATION
 
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Right aligned image" position="right" width="300" height="800" %}
+**Emergency Medical Technicians**
 
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Left aligned image" position="left" width="300" height="800" %}
+_NREMT, December 2020 – March 2023_
 
-{% include figure.html image="https://picsum.photos/1600/800?image=894" alt="Image with just alt text" %}{% endraw %}
-```
+- EMT provide out of hospital emergency medical care and transportation for critical and emergent patients who access the emergency medical services (EMS) system. EMTs have the basic knowledge and skills necessary to stabilize and safely transport patients ranging from non-emergency and routine medical transports to life threatening emergencies. Emergency Medical Technicians function as part of a comprehensive EMS response system, under medical oversight. Emergency Medical Technicians perform interventions with the basic equipment typically found on an ambulance.
+
+**Basic Life Support**
+
+_MTN-AR-Martin Army Community Hospital, December 2020 – December 2022_
+
+**Excel to MySQL: Analytic Techniques for Business**
+
+_Duke University, Coursera &#39;Specialization&#39;, 2017_
+
+- This five courses specialization covered Business Metrics for Data-Driven Companies, Mastering Data Analysis in Excel, Data Visualization and Communication with Tableau, Managing Big Data with MySQL, Increasing Real Estate Management Profits: Harnessing Data Analytics
+
+**Leading People and Teams**
+
+_University of Michigan, Coursera &#39;Specialization&#39;, 2020_
+
+- This five courses specialization covered Inspiring and Motivating Individuals, Managing Talent, Influencing People, Leading Teams, Leading People and Teams Capstone.
+
+**IBM Data Science**
+
+_IBM, Coursera &#39;Specialization&#39;, 2020_
+
+- This nine course specialization covered What is Data Science, Tools for Data Science, Data Science Methodology, Python for Data Science and AI, Databases and SQL for Data Science, Data Analysis with Python, Data Visualization with Python, Machine Learning with Python, Applied Data Science Capstone.
+
+**Python 3 Programming**
+
+_University of Michigan, Coursera &#39;Specialization&#39;, 2020_
+
+- This specialization teaches the fundamentals of programming in Python 3. We will begin at the beginning, with variables, conditionals, and loops, and get to some intermediate material like keyword parameters, list comprehensions, lambda expressions, and class inheritance.
