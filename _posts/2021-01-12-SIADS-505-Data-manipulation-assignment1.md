@@ -130,3 +130,7 @@ def logs():
     return result
 logs()
 ```
+
+```python
+assert len(logs()) == 979
+```
