@@ -26,3 +26,13 @@ I will get in touch with him by sending an email and ask if he has interests and
 If he doesn&#39;t have time to do the live interview, then I will send out the question list (no more than 10 questions) by email and he just needs to write down those answers.
 
 If he doesn&#39;t want to do any kinds of interviews, I will watch the video on youtube he created, called _What REALLY is Data Science? Told by a Data Scientist_ and finishing the assignment.
+
+
+
+#### Reading Responses
+
+- **Chapter 2 - Business Problems and Data Science Solutions**
+
+1. &quot;Think carefully about the problem to be solved and about the use scenario.&quot; Remember that each business decision-making problem or concern is unique. They come with diverse goals, constraints, and considerations. Don&#39;t try to use only one tool or way to solve a problem. _ **Problem Formulation - Maxim** _
+
+1. Ask &quot;why?&quot; and &quot;so what?&quot; after every answer you&#39;ve got. The more meaningful questions you raised, the more accurate tool or model you will make. In the real world, there are profusion variables and keys waiting to be used. It is impossible to use them all and critical to keep asking &quot;why?&quot; and &quot;so what?&quot; when I screen them. For example, if I decided to use &quot;the length of the personal statement&quot; to the project, I will ask &quot;why do I believe this variable is essential to the project?&quot; If I don&#39;t use it, how does it affect the model? Moreover, these questions help you to shrink the cost of time of data collection and cleaning. _ **Data collection and cleaning - Question** _
