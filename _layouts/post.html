@@ -16,6 +16,9 @@ layout: default
 
     {% include post-comments.html %}
 
+  
+  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+  
   </article>
     <div id="gitmentContainer"></div>
     <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
@@ -31,10 +34,6 @@ layout: default
     });
     gitment.render('gitmentContainer');
     </script>
-  
-  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
-  
-
 
 </main>
 
