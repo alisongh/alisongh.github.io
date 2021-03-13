@@ -1,7 +1,7 @@
 ---
 title: About Me and MADS
 date: 2021-03-09
-sidebar: false
+aside: false
 categories:
 - General
 feature_image: "https://picsum.photos/2560/600?image=872"
