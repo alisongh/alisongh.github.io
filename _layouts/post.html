@@ -17,20 +17,20 @@ layout: default
     {% include post-comments.html %}
 
   </article>
-  <div id="gitmentContainer"></div>
-  <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-  <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-  <script>
-  var gitment = new Gitment({
-      owner: 'alisongh',
-      repo: 'alisongh/alisongh.github.io',
-      oauth: {
-          client_id: 'cf7934449efa0bd02b8c',
-          client_secret: 'a0c349ed4ae245fde82d4d9ce41a39fde2b4b0f8',
-      },
-  });
-  gitment.render('gitmentContainer');
-  </script>
+    <div id="gitmentContainer"></div>
+    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+    <script>
+    var gitment = new Gitment({
+        owner: 'alisongh',
+        repo: 'alisongh/alisongh.github.io',
+        oauth: {
+            client_id: 'cf7934449efa0bd02b8c',
+            client_secret: 'a0c349ed4ae245fde82d4d9ce41a39fde2b4b0f8',
+        },
+    });
+    gitment.render('gitmentContainer');
+    </script>
   
   {% if page.aside == true %}{% include site-aside.html %}{% endif %}
   
