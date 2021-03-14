@@ -5,6 +5,7 @@ aside: false
 categories:
 - General
 feature_image: "https://picsum.photos/2560/600?image=872"
+stickie: true
 ---
 
 ![University of Michigan](https://www.si.umich.edu/themes/custom/umsi/assets/images/logo-header.png)
