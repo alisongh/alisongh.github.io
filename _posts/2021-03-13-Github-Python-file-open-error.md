@@ -15,7 +15,7 @@ Sometimes github fails to render the ipynb notebooks, and this is annoying somet
 
 **Step One**
 
-Open the link: (https://nbviewer.jupyter.org/)["https://nbviewer.jupyter.org/"]
+Open the link: [https://nbviewer.jupyter.org/]("https://nbviewer.jupyter.org/")
 
 **Step Two**
 
