@@ -4,6 +4,11 @@ layout: default
 
 {% include site-header.html %}
 
+{% if page.music-id %}
+  {% include cloud-music.html %}
+{% endif %}
+{{content}}
+
 <main class="main  container">
 
   <article class="article  article--post  content  typeset">
