@@ -7,7 +7,6 @@ categories:
 feature_image: "https://picsum.photos/2560/600?image=1"
 ---
 
-<p>https://drive.google.com/file/d/1JS2r1EGcYlA5tWHw2v0bC9ZmBErDegAO/view?usp=sharing</p>
 
 "Sorry, something went wrong. Reload?"
 
