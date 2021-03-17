@@ -1,7 +1,7 @@
 ---
 title: Github Python file open error
 date: 2021-03-09
-aside: false
+music-id: 26501492
 categories:
 - General
 feature_image: "https://picsum.photos/2560/600?image=1"
