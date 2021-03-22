@@ -10,7 +10,7 @@ categories:
 ## Syllabus
 This is the [Syllabus](https://github.com/alisongh/MADS/blob/0481b2d86b94485c805d1381a8ce7906290e247e/SIADS%20522/SIADS_522_Information_Visualization_I_W21_Adar.pdf) of SIADS 522.
 
-sBefore you turn this problem in, make sure everything runs as expected. First, **restart the kernel** (in the menubar, select Kernel&#8594;Restart) and then **run all cells** (in the menubar, select Cell$\rightarrow$Run All). Make sure your notebook executed to the end.
+sBefore you turn this problem in, make sure everything runs as expected. First, **restart the kernel** (in the menubar, select Kernel&#8594;Restart) and then **run all cells** (in the menubar, select Cell&#8594;Run All). Make sure your notebook executed to the end.
 
 Make sure you fill in any place that says `YOUR CODE HERE` or `YOUR ANSWER HERE`. Please remember that homeworks are to be completed independently. You may not share code with others.
 
