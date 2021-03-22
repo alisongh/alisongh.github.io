@@ -51,7 +51,7 @@ _B.S. in Entrepreneurship, 2015_
 * Coding intensive (Python; Altair; pandas)
 * This is the Python course about visualization and it is time consuming because I never used Altair to create visualization before. It takes time to get familiar with Altair and handle it very skillfully. The professor provides a plenty of supplemental resources about creative visualization and videos about how to generate Altair transforms. Same as 505, it is required the student to go through the Altair documentation while doing assignments. Be aware of managing your schedule if you have full-time/part-time job because it is a time-consuming course and you might spend few hours to figure out 1 or 2 questions if you have no experience of Altair.
 
-### SIADS 521 Visual Exploration of Data
+#### SIADS 521 Visual Exploration of Data
 * Light workload
 * Light reading and No writing
 * Medium coding load (Python; Matplotlib; Folium; Pandas; Plotly)
