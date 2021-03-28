@@ -42,7 +42,7 @@ Michael Simmons
 
 在此我不想赘述作者的个人经历，但是作者提出的当今社会中不同于传统型作家的“轰动”型作家(blockbuster writer)带来的写作变革非常有趣。
 
-![pic1](https://miro.medium.com/max/700/0*qqAtiD509ZB0oTbx.jpg =150x100)
+![pic1](https://miro.medium.com/max/700/0*qqAtiD509ZB0oTbx.jpg | width=100)
 
 ---
 
