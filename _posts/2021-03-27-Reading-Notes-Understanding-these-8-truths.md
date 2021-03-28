@@ -1,5 +1,5 @@
 ---
-title: Reading Note: Understand these 8 truths and our crazy world will suddenly make sense to you
+title: Reading Note Understand these 8 truths and our crazy world will suddenly make sense to you
 date: 2021-03-27
 categories:
 - General
@@ -42,7 +42,7 @@ Michael Simmons
 
 在此我不想赘述作者的个人经历，但是作者提出的当今社会中不同于传统型作家的“轰动”型作家(blockbuster writer)带来的写作变革非常有趣。
 
-![pic1](https://miro.medium.com/max/700/0*qqAtiD509ZB0oTbx.jpg)
+![pic1](https://miro.medium.com/max/700/0*qqAtiD509ZB0oTbx.jpg =150x)
 
 ---
 
