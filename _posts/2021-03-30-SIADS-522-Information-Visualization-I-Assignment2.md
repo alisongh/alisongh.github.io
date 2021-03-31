@@ -1,6 +1,6 @@
 ---
 title: SIADS 522 Information Visualization I Assignment 2
-date: 2021-03-22
+date: 2021-03-30
 categories: 
 - Altair
 ---
