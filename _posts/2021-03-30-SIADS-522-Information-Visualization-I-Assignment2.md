@@ -11,7 +11,7 @@ categories:
 
 [Check previous assignment](https://alisongh.com/altair/2021/03/22/SIADS-522-Information-Visualization-I-Assignment1/)
 
-Before you turn this problem in, make sure everything runs as expected. First, **restart the kernel** (in the menubar, select Kernel$\rightarrow$Restart) and then **run all cells** (in the menubar, select Cell$\rightarrow$Run All). Make sure your notebook executed to the end.
+Before you turn this problem in, make sure everything runs as expected. First, **restart the kernel** (in the menubar, select Kernel&#8594;Restart) and then **run all cells** (in the menubar, select Kernel&#8594;Run All). Make sure your notebook executed to the end.
 
 Make sure you fill in any place that says `YOUR CODE HERE` or "YOUR ANSWER HERE." Please remember that homeworks are to be completed independently. You may not share code with others.
 
