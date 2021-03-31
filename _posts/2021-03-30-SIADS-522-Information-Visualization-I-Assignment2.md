@@ -7,7 +7,7 @@ categories:
 * 目录
 {:toc}
 
-**Assignment 2**
+**Assignment 1**
 
 [Check previous assignment](https://alisongh.com/altair/2021/03/22/SIADS-522-Information-Visualization-I-Assignment1/)
 
