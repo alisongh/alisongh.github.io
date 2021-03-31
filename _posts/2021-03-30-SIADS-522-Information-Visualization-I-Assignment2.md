@@ -25,7 +25,7 @@ Make sure you fill in any place that says `YOUR CODE HERE` or "YOUR ANSWER HERE.
 - Review, reflect, and apply the concepts of encoding. Given a visualization recreate the data that was encoded.
 - Review, reflect, and apply the concepts of Expressiveness and Effectiveness. Given a visualization, evaluate alternatives with the same expressiveness.
 
-!["Drawing"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/data-table-resized.png)
+!["Drawing"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/data-table-resized.png?raw=true)
 
 
 <p style="text-align: center;">Two visualizations, same expressiveness </p>
@@ -58,37 +58,37 @@ Read the following article [*Creating the next Bechdel Test*](https://projects.f
 
 You *should* consider the interactive parts of the visualization in your answer. Take a picture or screenshot of your table and add it to the answer below
 
-!["Drawing"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/article_1.png)
+!["Drawing"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/article_1.png?raw=true)
 
 
 An easy way to upload images is to jump into the [./assets](./assets) directory (or use the Coursera notebook explorer and navigate to it) and then use the upload button to save your image:
 
-![upload](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/upload.png)
+![upload](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/upload.png?raw=true)
 
 Once you have the image, you can link to it using the markdown command: `![answer1.2](assets/my_image_1.2.png)`
 
 YOUR ANSWER HERE
 
-!["answer1.2"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/my_image_1.2.png)
+!["answer1.2"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/my_image_1.2.png?raw=true)
 
 ### 1.2 Sketch an alternative visualization with the same expressiveness (7 points)
 By hand is fine, but you can also use a tool. This is a sketch, the data need not be perfectly accurate or to scale. Again, upload a picture or screenshot below. Make sure there is enough annotation so it's clear why your picture has the same expressiveness.
 
 YOUR ANSWER HERE
 
-!["answer1.2"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/my_image_1.2_1.png)
+!["answer1.2"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/my_image_1.2_1.png?raw=true)
 
 
 <p style="text-align: center;">When the mouse cursors move to the mark, it shows the name of movie and % of female automatically </p>
 
 ### 1.3 Sketch an alternative visualization with the same expressiveness of the following visualization (10 points)
 
-!["article"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/article_2_resized.png)
+!["article"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/article_2_resized.png?raw=true)
 
 
 Same deal as last question: by hand or with a tool is fine. The data need not be perfectly accurate or to scale. Make sure there is enough annotation so it's clear why your picture has the same expressiveness. Again, upload a picture or screenshot below. 
 
-!["answer1.2"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/my_image_1.2_2.png)
+!["answer1.2"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/my_image_1.2_2.png?raw=true)
 
 <p style="text-align: center;">When the mouse cursors moves to the mark, it shows the list of tests automatically </p>
 
@@ -161,12 +161,12 @@ bar = m_bar()
 ```
 **Output**
 
-![](https://github.com/alisongh/MADS/blob/86ffe7a29ea4bc8b4a5aaa46c721bba3f64959a8/SIADS%20522/Assignment%202/assets/m_bar.png)
+![](https://github.com/alisongh/MADS/blob/86ffe7a29ea4bc8b4a5aaa46c721bba3f64959a8/SIADS%20522/Assignment%202/assets/m_bar.png?raw=true)
 
 ### 2.2 Alternative encoding (5 points)
 Complete the `m_circle` function. Change the encoding used in the previous example from a bar to a circle. Your visualization should look like 
 
-!["Drawing"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/alt_enc_1_resized.png)
+!["Drawing"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/alt_enc_1_resized.png?raw=true)
 
 
 ```python
@@ -196,11 +196,11 @@ bar = m_circle()
 ```
 **Output**
 
-![](https://github.com/alisongh/MADS/blob/27cbed59d588ecafff7774029634408d7b3879d1/SIADS%20522/Assignment%202/assets/m_circle.png)
+![](https://github.com/alisongh/MADS/blob/27cbed59d588ecafff7774029634408d7b3879d1/SIADS%20522/Assignment%202/assets/m_circle.png?raw=true)
 
 ### 2.3 Increase variables encoded (5 points)
 Complete the `female_actors` function. Modify the first bar chart encoding the type of the actor with the color of the bar. Your visualization should look like the following (note that we don't have labels yet):
-!["Drawing"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/alt_enc_2_resized.png)
+!["Drawing"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/alt_enc_2_resized.png?raw=true)
 
 - _Partial credit can be granted for each visualization (up to 2 points) if you provide a description of what the missing piece of the function is supposed to do without need for an Altair working version_
 
@@ -241,13 +241,13 @@ female
 ```
 **Output**
 
-![](https://github.com/alisongh/MADS/blob/4f47a02da8a83e68d4495a83c565f8dbdc758af1/SIADS%20522/Assignment%202/assets/female_actors.png)
+![](https://github.com/alisongh/MADS/blob/4f47a02da8a83e68d4495a83c565f8dbdc758af1/SIADS%20522/Assignment%202/assets/female_actors.png?raw=true)
 
 ### 2.4 Change filter transform (5 points)
 Complete the male_actors function, modify the previous visualization so that the actors visualized have Male gender. Use the Altair transform function for this, not Pandas.
 
 
-!["Drawing"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/alt_enc_3_resized.png)
+!["Drawing"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/alt_enc_3_resized.png?raw=true)
 
 - _Partial credit can be granted for each visualization (up to 2 points) if you provide a description of what the missing piece of the function is supposed to do without need for an altair working version_
 
@@ -288,14 +288,14 @@ male
 ```
 **Output**
 
-![](https://github.com/alisongh/MADS/blob/8ee563e90a73a9cab6e54307b9b849ae66c8fbc7/SIADS%20522/Assignment%202/assets/male_actor.png)
+![](https://github.com/alisongh/MADS/blob/8ee563e90a73a9cab6e54307b9b849ae66c8fbc7/SIADS%20522/Assignment%202/assets/male_actor.png?raw=true)
 
 
 ### 2.5 Variables encoded 2 (5 points)
 Complete the `variables_encoded_2` function.
 Return the number of variables encoded in the following plot (again, something like `return 5000;`... we're using this for automated testing). If you have been able to complete the previous examples, the plot should look like this
 
-!["Drawing"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/visualization_resized.png)
+!["Drawing"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/visualization_resized.png?raw=true)
 
 ```python
 middle = base.encode(
@@ -309,7 +309,7 @@ male | middle | female
 ```
 **Output**
 
-![](https://github.com/alisongh/MADS/blob/c77103efbb32da10e3f2ef2f3e358013ed18a745/SIADS%20522/Assignment%202/assets/middle.png)
+![](https://github.com/alisongh/MADS/blob/c77103efbb32da10e3f2ef2f3e358013ed18a745/SIADS%20522/Assignment%202/assets/middle.png?raw=true)
 
 ### 2.6 Alternative encoding 1 (20 Points)
 Create a new visualization within the `alternative_encoding_one` function with the following encoding:
@@ -321,7 +321,7 @@ Create a new visualization within the `alternative_encoding_one` function with t
 - Match the styling of the example
 
 
-!["Drawing"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/visualization_2_resized.png)
+!["Drawing"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/visualization_2_resized.png?raw=true)
 
 - _Partial credit can be granted for each visualization (up to 5 points) if you provide a description of what the missing piece of the function is supposed to do_
 
@@ -359,7 +359,7 @@ middle | al_enc_one
 ```
 **Output**
 
-![](https://github.com/alisongh/MADS/blob/c77103efbb32da10e3f2ef2f3e358013ed18a745/SIADS%20522/Assignment%202/assets/middle.png)
+![](https://github.com/alisongh/MADS/blob/c77103efbb32da10e3f2ef2f3e358013ed18a745/SIADS%20522/Assignment%202/assets/middle.png?raw=true)
 
 ### 2.7 Alternative encoding 2 (25 Points)
 complete `female_actors_1()` and `male_actors_1()` functions to create a new visualization with the following encoding:
@@ -373,11 +373,11 @@ complete `female_actors_1()` and `male_actors_1()` functions to create a new vis
 
 The top of the female plot would look like this:
 
-!["Drawing"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/visualization_3_resized.png)
+!["Drawing"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/visualization_3_resized.png?raw=true)
 
 If you've done everything correctly, your final visualization should look like the one below.
 
-!["Drawing"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/visualization_3.png)
+!["Drawing"](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/visualization_3.png?raw=true)
 
 - _Partial credit can be granted for each visualization (up to 4 points for each function) if you provide a description of what the missing piece of the function is supposed to do without need for an Altair working version_
 
@@ -412,7 +412,7 @@ f_a_1
 ```
 **Output**
 
-![](https://github.com/alisongh/MADS/blob/c77103efbb32da10e3f2ef2f3e358013ed18a745/SIADS%20522/Assignment%202/assets/visualization_3_fullSize.png)
+![](https://github.com/alisongh/MADS/blob/c77103efbb32da10e3f2ef2f3e358013ed18a745/SIADS%20522/Assignment%202/assets/visualization_3_fullSize.png?raw=true)
 
 ```python
 def male_actors_1():
@@ -446,7 +446,7 @@ m_a_1
 ```
 **Output**
 
-![](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/vis_3_full.png)
+![](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/vis_3_full.png?raw=true)
 
 ```python
 # create the visualization
@@ -454,6 +454,6 @@ f_a_1 | middle | m_a_1
 ```
 **Output**
 
-![](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/visualization_3_full.png)
+![](https://github.com/alisongh/MADS/blob/3397f734fb072aaf9e684e4177014b29771da900/SIADS%20522/Assignment%202/assets/visualization_3_full.png?raw=true)
 
 
