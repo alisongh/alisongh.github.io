@@ -58,14 +58,14 @@ sass:
   style: compressed # Style compression
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
-timezone: Europe/London # Timezone for blog posts and alike
+timezone: America/New_York # Timezone for blog posts and alike
 
 # 5. Collections
 collections:
   posts:
     title:  # Needed for Siteleaf
     output: true
-    description: "My thoughts and ideas" # The post list page content
+    description: "" # The post list page content
     feature_text: |
       To blog = To share, to connect, to create, to inspire
     feature_image: "https://picsum.photos/2560/600?image=866"
@@ -133,7 +133,7 @@ navigation_header:
   url: https://github.com/alisongh
 
 navigation_footer:
-- title: Created by David Darnes
+- title: Book of Alison
   url: https://alisongh.github.io
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
