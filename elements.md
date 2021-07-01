@@ -21,6 +21,11 @@ Raleigh, NC, 27612 | <liwenh@umich.edu>
 
 ### PROFESSIONAL EXPERIENCES
 
+**IT Intern**, Full-time, _June 2021 - August 2021_
+BCBS Michigan, Remote
+
+- Working with CRM technology team.
+
 **Customer Relations Manager**, Full-time, _May 2019 – November 2020_
 
 Sincere Students Service INC., Raleigh, NC
