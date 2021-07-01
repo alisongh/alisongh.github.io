@@ -22,6 +22,7 @@ Raleigh, NC, 27612 | <liwenh@umich.edu>
 ### PROFESSIONAL EXPERIENCES
 
 **IT Intern**, Full-time, _June 2021 - August 2021_
+
 BCBS Michigan, Remote
 
 - Working with CRM technology team.
