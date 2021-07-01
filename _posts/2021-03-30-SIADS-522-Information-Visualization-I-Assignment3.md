@@ -257,7 +257,6 @@ So, which movie is the best? We asked the subset of 471 respondents who indicate
 ### 2.1 What's the best 'Star Wars' movie? Recreate the above image using altair (10 POINTS)
 
 ```python
-
 # let's do some data pre-processing... sw (star wars) has everything
 
 # We want to only use those people who have seen at least one movie, let's get the people, toss NAs
@@ -287,8 +286,8 @@ tuples = list(zip([names[ep] for ep in episodes],percs))
 rank_per_df = pd.DataFrame(tuples, columns = ['Name', 'Percentage'])
 rank_per_df
 ```
-```python
 
+```python
 # ok, time to make the chart... let's make a bar chart (use mark_bar)
 bars = alt.Chart(rank_per_df).mark_bar(size=20).encode(
     # encode x as the percent, and hide the axis
@@ -307,6 +306,7 @@ bars = alt.Chart(rank_per_df).mark_bar(size=20).encode(
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 bars
 ```
+
 ```python
 # we're going to overlay the text with the percentages, so let's make another visualization
 # that's just text labels
@@ -372,7 +372,6 @@ This chart shows how often each film was rated in the top third (best or second-
 ### 2.2 How people rate the 'Star Wars' movie? Recreate the above image using altair (10 POINTS)
 
 ```python
-
 # let's do some data pre-processing... sw (star wars) has everything
 
 # We want to only use those people who have seen at least one movie, let's get the people, toss NAs
@@ -384,6 +383,7 @@ total = len(seen_all_movies)
 
 print("total who have seen all movies: ", total)
 ```
+
 ```python
 # for each movie, we're going to calculate the percents and generate a new data frame
 percs = []
@@ -421,8 +421,8 @@ top3_bars = alt.Chart(top3_df).mark_bar(size=20, color='#77AB43').encode(
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 top3_bars
 ```
-```python
 
+```python
 # we're going to overlay the text with the percentages, so let's make another visualization
 # that's just text labels
 
@@ -451,6 +451,7 @@ top3_movies
 
 # note that we are NOT formatting this in the Five Thirty Eight Style yet... we'll leave that to you to figure out
 ```
+
 ```python
 # for each movie, we're going to calculate the percents and generate a new data frame
 percs = []
@@ -469,6 +470,7 @@ tuples = list(zip([names[ep] for ep in episodes],percs))
 mid3_df = pd.DataFrame(tuples, columns = ['Name', 'Percentage'])
 mid3_df
 ```
+
 ```python
 # ok, time to make the chart... let's make a bar chart (use mark_bar)
 mid3_bars = alt.Chart(mid3_df).mark_bar(size=20, color='#008FD5').encode(
@@ -488,6 +490,7 @@ mid3_bars = alt.Chart(mid3_df).mark_bar(size=20, color='#008FD5').encode(
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 mid3_bars
 ```
+
 ```python
 # we're going to overlay the text with the percentages, so let's make another visualization
 # that's just text labels
@@ -517,6 +520,7 @@ mid3_movies
 
 # note that we are NOT formatting this in the Five Thirty Eight Style yet... we'll leave that to you to figure out
 ```
+
 ```python
 # for each movie, we're going to calculate the percents and generate a new data frame
 percs = []
@@ -535,6 +539,8 @@ tuples = list(zip([names[ep] for ep in episodes],percs))
 bot3_df = pd.DataFrame(tuples, columns = ['Name', 'Percentage'])
 bot3_df
 ```
+
+```python
 # ok, time to make the chart... let's make a bar chart (use mark_bar)
 bot3_bars = alt.Chart(bot3_df).mark_bar(size=20, color='red').encode(
     # encode x as the percent, and hide the axis
@@ -553,6 +559,7 @@ bot3_bars = alt.Chart(bot3_df).mark_bar(size=20, color='red').encode(
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 bot3_bars
 ```
+
 ```python
 # we're going to overlay the text with the percentages, so let's make another visualization
 # that's just text labels
