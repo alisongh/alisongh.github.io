@@ -65,26 +65,26 @@ stickie: true
 * This course is about using visualization tools to present data. It depends on how your vis experience and knowledge you have had. There is nothing complicated or time-consuming part of this course. 
 
 
-### SIADS 532 Data Mining I
+#### SIADS 532 Data Mining I
 * Light to medium workload
 * Light reading and no writing
 * Light to medium coding load (Python; Pandas; Numpy)
 * Score: 🌟🌟🌟🌟:star:
 * This is an exciting course, and I enjoy it very much. The professor makes the whole course into several small parts and explains every detail's knowledge and critical points. I love the style of the way of teaching. Even though the assignments are split into segments that need some time to get used to, it reduces each assignment's workload. I think the prof is very good at explaining Math.
 
-### SIADS 622 Information Visualization II
+#### SIADS 622 Information Visualization II
 * Medium to heavy workload
 * Coding intensive (Python; Altair; Pandas; NLTK)
 * Score: 🌟🌟🌟🌟:star:
 * This is a new course offering the fourth month of Win21. Prof Adar puts a lot of time, energy, and enthusiasm into this course, making the course fantastic and well-organized.  The lecture, taught by Prof. Adar, providing many kinds of visualization examples in the real world, looks not very related to the assignments, but it gives me a view of how the visualization is. Even though most of those examples are outdated, it's been designed on purpose because it only contains the essential parts of vis, highlighting the critical knowledge and key points to you, without fancy but useless part, which is attracting too much attention. This course is not only about visualization, generating charts, maps, and so on, but also about the pre-processing of text, NLTK. If you have not learned anything about it, it will help you build the system of pre-processing text and represent it by Altair. Again, Prof. Adar is one of my favorite professors so far.
 
-### SIADS 511 SQL and Database
+#### SIADS 511 SQL and Database
 * Light workload
 * Light coding load (PostgreSQL)
 * Score: 🌟:star:
 * This is a very entry-level SQL course. About five years ago, I took the *Excel to MySQL: Analytic Techniques for Business* specialization on Coursera. Somehow, I have MySQL experience, but I never use it since I finished the certification. I regard 511 as a refresh course of SQL. However, the content of SQL by the course is too shallow. I have finished the whole course within two weeks at very slow paces. I do not believe this is a graduate-level course but a college freshman-level course. There's an EXACTLY THE SAME course on Coursera as well which only cost 79USD per month. I don't get the reason the instructor doesn't want to create more deep concepts and materials on MADS course since we pay much higher tuition and have higher expectation than the Coursera one. I love the structure and curriculum of the course and the way of teaching by Prof. Anthony Whyte. I suggest if you take this course as a SQL refresh course, look for extra exercises and projects by yourself instead of relying on this course all.
 
-### SIADS 515 Efficient Data Processing
+#### SIADS 515 Efficient Data Processing
 * Light workload
 * Light coding load (Python)
 * Score: 🌟:star:
