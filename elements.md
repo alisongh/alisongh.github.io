@@ -21,33 +21,14 @@ Raleigh, NC, 27612 | <liwenh@umich.edu>
 
 ### PROFESSIONAL EXPERIENCES
 
-**IT Intern**, Full-time, _June 2021 - August 2021_
+[LinkedIn](https://www.linkedin.com/in/alisonliwenhuang/)
 
-BCBS Michigan, Remote
-
-- Working with CRM technology team.
-
-**Customer Relations Manager**, Full-time, _May 2019 – November 2020_
-
-Sincere Students Service INC., Raleigh, NC
-
-- Resolving customer complaints quickly and efficiently.
-- Building and maintaining profitable relationships with key customers.
-- Building and developing a CRM system by JIRA, Confluence, and Trello.
-- Keeping customers updated on the latest products to increase sales.
-- Meeting with managers in the organization to plan strategically.
-- Expanding the customer base by upselling and cross-selling.
-- Understanding key customer individual needs and addressing these.
-- Conducting business reviews using CRM programs.
-
-**Combat Medic Specialist**, Part-time, _May 2016 - present_
-
-US Army, Greensboro, NC
-
-- Administer emergency medical treatment to battlefield casualties.
-- Assist with outpatient and inpatient care and treatment.
-- Instruct Soldier's on Combat Lifesaver/First Responder training course.
-- Manage Soldier's medical readiness, medical supplies, and equipment.
+### Background
+* Python: :snake::snake:
+* MySQL: :dolphin:
+:flipper:
+* Math and Statistic: :hatched_chick:
+* Other coding: :zero:
 
 ### SKILLS
 
@@ -77,9 +58,6 @@ _NREMT, December 2020 – March 2023_
 
 - EMT provide out of hospital emergency medical care and transportation for critical and emergent patients who access the emergency medical services (EMS) system. EMTs have the basic knowledge and skills necessary to stabilize and safely transport patients ranging from non-emergency and routine medical transports to life threatening emergencies. Emergency Medical Technicians function as part of a comprehensive EMS response system, under medical oversight. Emergency Medical Technicians perform interventions with the basic equipment typically found on an ambulance.
 
-**Basic Life Support**
-
-_MTN-AR-Martin Army Community Hospital, December 2020 – December 2022_
 
 **Excel to MySQL: Analytic Techniques for Business**
 
