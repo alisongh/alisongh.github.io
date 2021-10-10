@@ -1,6 +1,7 @@
 ---
 layout: post
-title: SIADS 501 Being a Data Scientist
+title: SIADS 501 
+description: Being a Data Scientist
 date: 2021-02-02
 image: '/images/06.jpg'
 tags: [data science]
