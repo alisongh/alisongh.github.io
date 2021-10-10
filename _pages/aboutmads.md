@@ -5,7 +5,6 @@ permalink: /aboutmads/
 image: '/images/02.jpg'
 ---
 
-![University of Michigan](https://www.si.umich.edu/themes/custom/umsi/assets/images/logo-header.png)
 # MADS
 Master of Applied Data Science by University of Michigan
 
