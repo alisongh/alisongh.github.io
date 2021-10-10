@@ -13,7 +13,6 @@ Raleigh, NC, 27612 | <liwenh@umich.edu>
 - 5+ years of experience in Customer Relations Management including experience in customer service, formulate customer service policy, build, and develop CRM system.
 - 7+ years of experience in the education of international students.
 - Experiences in programming in Python, SQL, JIRA, and Confluence.
-- US citizen and former service member of US Army.
 - Bilingual with fluent verbal and written skills in English and Chinese languages.
 - Experienced in dealing with different cultures and nationalities.
 
@@ -22,11 +21,10 @@ Raleigh, NC, 27612 | <liwenh@umich.edu>
 [LinkedIn](https://www.linkedin.com/in/alisonliwenhuang/)
 
 ### Background
-* Python: :snake::snake:
-* MySQL: :dolphin:
-:flipper:
-* Math and Statistic: :hatched_chick:
-* Other coding: :zero:
+* Python: 🐍🐍
+* MySQL: 🐬🐬
+* Math and Statistic: 🐥
+* Other coding: 0️⃣
 
 ### SKILLS
 
