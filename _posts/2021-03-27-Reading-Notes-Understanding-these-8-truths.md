@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Reading Note Understand these 8 truths and our crazy world will suddenly make sense to you
+title: Reading Note 
+description: Understand these 8 truths and our crazy world will suddenly make sense to you
 date: 2021-03-27
 image: '/images/10.jpg'
 tags: [reading, notes, paper]
