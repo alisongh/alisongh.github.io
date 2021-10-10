@@ -1,10 +1,9 @@
 ---
+layout: post
 title: Github Python file open error
 date: 2021-03-09
-music-id: 26501492
-categories:
-- General
-feature_image: "https://picsum.photos/2560/600?image=1"
+image: '/images/08.jpg'
+tags: [github, error, file open]
 ---
 
 
