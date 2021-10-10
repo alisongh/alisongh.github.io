@@ -3,7 +3,7 @@ layout: post
 title: Github Python file open error
 date: 2021-03-09
 image: '/images/08.jpg'
-tags: [github, error, file open]
+tags: [github, error, file-open]
 ---
 
 
