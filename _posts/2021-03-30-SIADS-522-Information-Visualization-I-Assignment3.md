@@ -90,24 +90,26 @@ To earn points for this assignment, you must:
 
 - Propose a new visualization to complement a part of the article. Add a short paragraph justifying your decisions in terms of Perception/Cognition processes.  (15 points/ 10 points plot + 5 justification)
 
-{% highlight html linenos %}
-    import pandas as pd
-    import altair as alt
-    import numpy as np
-    import math
+{% highlight python linenos %}
+import pandas as pd
+import altair as alt
+import numpy as np
+import math
 {% endhighlight %}
 
-```python
+{% highlight python linenos %}
 # enable correct rendering
 alt.renderers.enable('default')
 
 # uses intermediate json files to speed things up
 alt.data_transformers.enable('json')
-```
-```python
+{% endhighlight %}
+
+{% highlight python linenos %}
 sw = pd.read_csv('assets/StarWars.csv', encoding='latin1')
-```
-```python
+{% endhighlight %}
+
+{% highlight python linenos %}
 # Some format is needed for the survey dataframe, we provide the formatted dataset in a dataframe 
 sw = sw.rename(columns={'Have you seen any of the 6 films in the Star Wars franchise?':'seen_any_movie',
                         'Do you consider yourself to be a fan of the Star Wars film franchise?': 'fan',
@@ -139,11 +141,13 @@ sw = sw.rename(columns={'Have you seen any of the 6 films in the Star Wars franc
                         'Unnamed: 28' : 'fav_Y',
                        })
 sw = sw.drop([0])
-```
-```python
+{% endhighlight %}
+
+{% highlight python linenos %}
 # take a peak to look at the data
 sw.sample(5)
-```
+{% endhighlight %}
+
 # America’s Favorite ‘Star Wars’ Movies (And Least Favorite Characters)_Original article available at [FiveThirtyEight](https://fivethirtyeight.com/features/americas-favorite-star-wars-movies-and-least-favorite-characters/)_
 
 By [Walt Hickey](https://fivethirtyeight.com/contributors/walt-hickey/)
@@ -160,7 +164,7 @@ We then asked respondents which of the films they had seen. With 835 people resp
 
 !["Sol1"](assets/have_seen_resized.png)
 
-```python
+{% highlight python linenos %}
 # Sample visualization
 
 # We're going to fix the labels a bit so will create a mapping to the full names
@@ -174,12 +178,12 @@ names = {
 names_l = [names[ep] for ep in episodes]
 
 print("sort order: ",names_l)
-```
+{% endhighlight %}
 **Output**
 
 total who have seen at least one:  835
 
-```python
+{% highlight python linenos %}
 # let's do some data pre-processing... sw (star wars) has everything
 
 # We want to only use those people who have seen at least one movie, let's get the people, toss NAs
@@ -190,8 +194,9 @@ seen_at_least_one = sw.dropna(subset=['seen_' + ep for ep in episodes],how='all'
 total = len(seen_at_least_one)
 
 print("total who have seen at least one: ", total)
-```
-```python
+{% endhighlight %}
+
+{% highlight python linenos %}
 # ok, time to make the chart... let's make a bar chart (use mark_bar)
 bars = alt.Chart(seen_per_df).mark_bar(size=20).encode(
     # encode x as the percent, and hide the axis
@@ -209,8 +214,9 @@ bars = alt.Chart(seen_per_df).mark_bar(size=20).encode(
 
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 bars
-```
-```python
+{% endhighlight %}
+
+{% highlight python linenos %}
 # we're going to overlay the text with the percentages, so let's make another visualization
 # that's just text labels
 
@@ -245,7 +251,7 @@ seen_movies = (text + bars).configure_mark(
 seen_movies
 
 # note that we are NOT formatting this in the Five Thirty Eight Style yet... we'll leave that to you to figure out
-```
+{% endhighlight %}
 
 So we can see that “Star Wars: Episode V — The Empire Strikes Back” is the film seen by the most number of people, followed by “Star Wars: Episode VI — Return of the Jedi.” Appallingly, more people reported seeing “Star Wars: Episode I — The Phantom Menace” than the original “Star Wars” (renamed “Star Wars: Episode IV — A New Hope”).
 
@@ -258,7 +264,7 @@ So, which movie is the best? We asked the subset of 471 respondents who indicate
 
 ### 2.1 What's the best 'Star Wars' movie? Recreate the above image using altair (10 POINTS)
 
-```python
+{% highlight python linenos %}
 # let's do some data pre-processing... sw (star wars) has everything
 
 # We want to only use those people who have seen at least one movie, let's get the people, toss NAs
@@ -269,8 +275,9 @@ seen_all_movies = sw.dropna(subset=['seen_' + ep for ep in episodes],how='any')
 total = len(seen_all_movies)
 
 print("total who have seen all movies: ", total)
-```
-```python
+{% endhighlight %}
+
+{% highlight python linenos %}
 # for each movie, we're going to calculate the percents and generate a new data frame
 percs = []
 
@@ -287,9 +294,9 @@ for rank_ep in [f'rank_' + ep for ep in episodes]:
 tuples = list(zip([names[ep] for ep in episodes],percs))
 rank_per_df = pd.DataFrame(tuples, columns = ['Name', 'Percentage'])
 rank_per_df
-```
+{% endhighlight %}
 
-```python
+{% highlight python linenos %}
 # ok, time to make the chart... let's make a bar chart (use mark_bar)
 bars = alt.Chart(rank_per_df).mark_bar(size=20).encode(
     # encode x as the percent, and hide the axis
@@ -307,9 +314,9 @@ bars = alt.Chart(rank_per_df).mark_bar(size=20).encode(
 
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 bars
-```
+{% endhighlight %}
 
-```python
+{% highlight python linenos %}
 # we're going to overlay the text with the percentages, so let's make another visualization
 # that's just text labels
 
@@ -359,7 +366,7 @@ best_movies = (text + bars).configure_view(
 best_movies
 
 # note that we are NOT formatting this in the Five Thirty Eight Style yet... we'll leave that to you to figure out
-```
+{% endhighlight %}
 
 ## Make sure to *style* your visualization to match the original the best you can
 
@@ -373,7 +380,7 @@ This chart shows how often each film was rated in the top third (best or second-
 
 ### 2.2 How people rate the 'Star Wars' movie? Recreate the above image using altair (10 POINTS)
 
-```python
+{% highlight python linenos %}
 # let's do some data pre-processing... sw (star wars) has everything
 
 # We want to only use those people who have seen at least one movie, let's get the people, toss NAs
@@ -384,9 +391,9 @@ seen_all_movies = sw.dropna(subset=['seen_' + ep for ep in episodes],how='any')
 total = len(seen_all_movies)
 
 print("total who have seen all movies: ", total)
-```
+{% endhighlight %}
 
-```python
+{% highlight python linenos %}
 # for each movie, we're going to calculate the percents and generate a new data frame
 percs = []
 
@@ -403,8 +410,9 @@ for rank_ep in [f'rank_' + ep for ep in episodes]:
 tuples = list(zip([names[ep] for ep in episodes],percs))
 top3_df = pd.DataFrame(tuples, columns = ['Name', 'Percentage'])
 top3_df
-```
-```python
+{% endhighlight %}
+
+{% highlight python linenos %}
 # ok, time to make the chart... let's make a bar chart (use mark_bar)
 top3_bars = alt.Chart(top3_df).mark_bar(size=20, color='#77AB43').encode(
     # encode x as the percent, and hide the axis
@@ -422,9 +430,9 @@ top3_bars = alt.Chart(top3_df).mark_bar(size=20, color='#77AB43').encode(
 
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 top3_bars
-```
+{% endhighlight %}
 
-```python
+{% highlight python linenos %}
 # we're going to overlay the text with the percentages, so let's make another visualization
 # that's just text labels
 
@@ -452,9 +460,9 @@ top3_movies = (text + top3_bars).properties(
 top3_movies
 
 # note that we are NOT formatting this in the Five Thirty Eight Style yet... we'll leave that to you to figure out
-```
+{% endhighlight %}
 
-```python
+{% highlight python linenos %}
 # for each movie, we're going to calculate the percents and generate a new data frame
 percs = []
 
@@ -471,9 +479,9 @@ for rank_ep in [f'rank_' + ep for ep in episodes]:
 tuples = list(zip([names[ep] for ep in episodes],percs))
 mid3_df = pd.DataFrame(tuples, columns = ['Name', 'Percentage'])
 mid3_df
-```
+{% endhighlight %}
 
-```python
+{% highlight python linenos %}
 # ok, time to make the chart... let's make a bar chart (use mark_bar)
 mid3_bars = alt.Chart(mid3_df).mark_bar(size=20, color='#008FD5').encode(
     # encode x as the percent, and hide the axis
@@ -491,9 +499,9 @@ mid3_bars = alt.Chart(mid3_df).mark_bar(size=20, color='#008FD5').encode(
 
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 mid3_bars
-```
+{% endhighlight %}
 
-```python
+{% highlight python linenos %}
 # we're going to overlay the text with the percentages, so let's make another visualization
 # that's just text labels
 
@@ -521,9 +529,9 @@ mid3_movies = (text + mid3_bars).properties(
 mid3_movies
 
 # note that we are NOT formatting this in the Five Thirty Eight Style yet... we'll leave that to you to figure out
-```
+{% endhighlight %}
 
-```python
+{% highlight python linenos %}
 # for each movie, we're going to calculate the percents and generate a new data frame
 percs = []
 
@@ -540,9 +548,9 @@ for rank_ep in [f'rank_' + ep for ep in episodes]:
 tuples = list(zip([names[ep] for ep in episodes],percs))
 bot3_df = pd.DataFrame(tuples, columns = ['Name', 'Percentage'])
 bot3_df
-```
+{% endhighlight %}
 
-```python
+{% highlight python linenos %}
 # ok, time to make the chart... let's make a bar chart (use mark_bar)
 bot3_bars = alt.Chart(bot3_df).mark_bar(size=20, color='red').encode(
     # encode x as the percent, and hide the axis
@@ -560,9 +568,9 @@ bot3_bars = alt.Chart(bot3_df).mark_bar(size=20, color='red').encode(
 
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 bot3_bars
-```
+{% endhighlight %}
 
-```python
+{% highlight python linenos %}
 # we're going to overlay the text with the percentages, so let's make another visualization
 # that's just text labels
 
@@ -589,8 +597,9 @@ bot3_movies = (text + bot3_bars).properties(
 bot3_movies
 
 # note that we are NOT formatting this in the Five Thirty Eight Style yet... we'll leave that to you to figure out
-```
-```python
+{% endhighlight %}
+
+{% highlight python linenos %}
 # Recreate this image using altair here (10 POINTS)
 
 # YOUR CODE HERE
@@ -617,7 +626,7 @@ alt.hconcat(top3_movies, mid3_movies, bot3_movies).properties(
     gradientLength=400,
     gradientThickness=30
 )
-```
+{% endhighlight %}
 
 Finally, we took a boilerplate format used by political favorability polls — “Please state whether you view the following characters favorably, unfavorably, or are unfamiliar with him/her” — and asked respondents to rate characters in the series.
 
@@ -629,7 +638,7 @@ Finally, we took a boilerplate format used by political favorability polls — �
 
 ### 2.3 Star Wars' Characters Favorability Ratings. Recreate the above image using altair (10 POINTS)
 
-```python
+{% highlight python linenos %}
 actors = ['LS', 'HS','PLO','OWK','Y','RD','C3','AS','DV','LC','PA','BF','EP','JJB']
 names = {
     'LS' : 'Luke Skywalker','HS' : 'Han Solo', 'PLO':'Princess Leia Organa', 'OWK': 'Obi Wan Kenobi', 'Y':'Yoda', 'RD':'R2 D2', 'C3':'C-3P0', 'AS' : 'Anakin Skywalker', 'DV' : 'Darth Vader', 'LC':'Lando Calrissian', 'PA':'Padme Amidala', 'BF':'Boba Fett', 'EP': 'Emperor Palpatine', 'JJB':'Jar Jar Binks'
@@ -639,8 +648,9 @@ names = {
 names_l = [names[ac] for ac in actors]
 
 print("sort order: ",names_l)
-```
-```python
+{% endhighlight %}
+
+{% highlight python linenos %}
 
 # let's do some data pre-processing... sw (star wars) has everything
 
@@ -653,8 +663,9 @@ seen_at_least_one = sw.dropna(subset=['fav_' + ac for ac in actors],how='all')
 total = len(seen_at_least_one)
 
 print("total who have seen at least one: ", total)
-```
-```python
+{% endhighlight %}
+
+{% highlight python linenos %}
 # for each movie, we're going to calculate the percents and generate a new data frame
 percs = []
 
@@ -671,9 +682,9 @@ for actor_ep in ['fav_' + ac for ac in actors]:
 tuples = list(zip([names[ac] for ac in actors],percs))
 fav_df = pd.DataFrame(tuples, columns = ['Name', 'Percentage'])
 fav_df
-```
-```python
+{% endhighlight %}
 
+{% highlight python linenos %}
 # ok, time to make the chart... let's make a bar chart (use mark_bar)
 fav_bars = alt.Chart(fav_df).mark_bar(size=20, color='#77AB43').encode(
     # encode x as the percent, and hide the axis
@@ -691,8 +702,9 @@ fav_bars = alt.Chart(fav_df).mark_bar(size=20, color='#77AB43').encode(
 
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 fav_bars
-```
-```python
+{% endhighlight %}
+
+{% highlight python linenos %}
 # we're going to overlay the text with the percentages, so let's make another visualization
 # that's just text labels
 
@@ -719,8 +731,9 @@ fav_movies = (text + fav_bars).properties(
 fav_movies
 
 # note that we are NOT formatting this in the Five Thirty Eight Style yet... we'll leave that to you to figure out
-```
-```python
+{% endhighlight %}
+
+{% highlight python linenos %}
 # for each movie, we're going to calculate the percents and generate a new data frame
 percs = []
 
@@ -737,9 +750,9 @@ for actor_ep in ['fav_' + ac for ac in actors]:
 tuples = list(zip([names[ac] for ac in actors],percs))
 neu_df = pd.DataFrame(tuples, columns = ['Name', 'Percentage'])
 neu_df
-```
-```python
+{% endhighlight %}
 
+{% highlight python linenos %}
 # ok, time to make the chart... let's make a bar chart (use mark_bar)
 neu_bars = alt.Chart(neu_df).mark_bar(size=20, color='#008FD5').encode(
     # encode x as the percent, and hide the axis
@@ -756,8 +769,9 @@ neu_bars = alt.Chart(neu_df).mark_bar(size=20, color='#008FD5').encode(
 
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 neu_bars
-```
-```python
+{% endhighlight %}
+
+{% highlight python linenos %}
 # we're going to overlay the text with the percentages, so let's make another visualization
 # that's just text labels
 
@@ -784,8 +798,9 @@ neu_movies = (text + neu_bars).properties(
 neu_movies
 
 # note that we are NOT formatting this in the Five Thirty Eight Style yet... we'll leave that to you to figure out
-```
-```python
+{% endhighlight %}
+
+{% highlight python linenos %}
 # for each movie, we're going to calculate the percents and generate a new data frame
 percs = []
 
@@ -802,9 +817,9 @@ for actor_ep in ['fav_' + ac for ac in actors]:
 tuples = list(zip([names[ac] for ac in actors],percs))
 unfav_df = pd.DataFrame(tuples, columns = ['Name', 'Percentage'])
 unfav_df
-```
-```python
+{% endhighlight %}
 
+{% highlight python linenos %}
 # ok, time to make the chart... let's make a bar chart (use mark_bar)
 unfav_bars = alt.Chart(unfav_df).mark_bar(size=20, color='red').encode(
     # encode x as the percent, and hide the axis
@@ -821,8 +836,9 @@ unfav_bars = alt.Chart(unfav_df).mark_bar(size=20, color='red').encode(
 
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 unfav_bars
-```
-```python
+{% endhighlight %}
+
+{% highlight python linenos %}
 # we're going to overlay the text with the percentages, so let's make another visualization
 # that's just text labels
 
@@ -849,9 +865,9 @@ unfav_movies = (text + unfav_bars).properties(
 unfav_movies
 
 # note that we are NOT formatting this in the Five Thirty Eight Style yet... we'll leave that to you to figure out
-```
-```python
+{% endhighlight %}
 
+{% highlight python linenos %}
 # for each movie, we're going to calculate the percents and generate a new data frame
 percs = []
 
@@ -868,8 +884,8 @@ for actor_ep in ['fav_' + ac for ac in actors]:
 tuples = list(zip([names[ac] for ac in actors],percs))
 unfamiliar_df = pd.DataFrame(tuples, columns = ['Name', 'Percentage'])
 unfamiliar_df
-```
-```python
+{% endhighlight %}
+{% highlight python linenos %}
 # ok, time to make the chart... let's make a bar chart (use mark_bar)
 unfamiliar_bars = alt.Chart(unfamiliar_df).mark_bar(size=20, color='#A0A0A0').encode(
     # encode x as the percent, and hide the axis
@@ -886,8 +902,9 @@ unfamiliar_bars = alt.Chart(unfamiliar_df).mark_bar(size=20, color='#A0A0A0').en
 
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 unfamiliar_bars
-```
-```python
+{% endhighlight %}
+
+{% highlight python linenos %}
 # we're going to overlay the text with the percentages, so let's make another visualization
 # that's just text labels
 
@@ -914,8 +931,9 @@ unfamiliar_movies = (text + unfamiliar_bars).properties(
 unfamiliar_movies
 
 # note that we are NOT formatting this in the Five Thirty Eight Style yet... we'll leave that to you to figure out
-```
-```python
+{% endhighlight %}
+
+{% highlight python linenos %}
 # Recreate this image using altair here (10 POINTS)
 
 # # YOUR CODE HERE
@@ -942,7 +960,7 @@ alt.hconcat(fav_movies, neu_movies, unfav_movies, unfamiliar_movies).properties(
     titleFontSize=12,
     labelFontSize=12  
 )
-```
+{% endhighlight %}
 
 You read that correctly. Jar Jar Binks has a lower favorability rating than the actual personification of evil in the galaxy.
 
@@ -955,13 +973,13 @@ And for those of you who want to know the impact that [historical revisionism](h
 
 ### 2.4 Who shot first? Recreate the above image using altair (10 POINTS)
 
-```python
+{% highlight python linenos %}
 total = sw['Which character shot first?'].count()
 seen_any_movies = sw.dropna(subset=['seen_' + ep for ep in episodes],how='all')
 
 print("{} respondents".format(total))
-```
-```python
+{% endhighlight %}
+{% highlight python linenos %}
 # for each movie, we're going to calculate the percents and generate a new data frame
 Han = seen_any_movies["Which character shot first?"] == 'Han'
 count_Han = sum(Han)
@@ -981,11 +999,11 @@ perc_idk = count_idk / total
 d = {'Name':["Han", "Greedo", "I don't understand this question"], "percentage":[perc_Han, perc_Greedo, perc_idk]}
 char_df = pd.DataFrame(data=d)
 char_df
-```
-```python
+{% endhighlight %}
+{% highlight python linenos %}
 names =['Han','Greedo',"I don't understand this question"]
-```
-```python
+{% endhighlight %}
+{% highlight python linenos %}
 # ok, time to make the chart... let's make a bar chart (use mark_bar)
 shot_first_bars = alt.Chart(char_df).mark_bar(size=20, color='#008FD5').encode(
     # encode x as the percent, and hide the axis
@@ -1002,8 +1020,8 @@ shot_first_bars = alt.Chart(char_df).mark_bar(size=20, color='#008FD5').encode(
 
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 shot_first_bars
-```
-```python
+{% endhighlight %}
+{% highlight python linenos %}
 # Recreate this image using altair here (10 POINTS)
 
 # YOUR CODE HERE
@@ -1049,17 +1067,19 @@ shot_first_movies = (text + shot_first_bars).configure_mark(
 shot_first_movies
 
 # note that we are NOT formatting this in the Five Thirty Eight Style yet... we'll leave that to you to figure out
-```
-```python
+{% endhighlight %}
+
+{% highlight python linenos %}
 print(total)
-```
+{% endhighlight %}
+
 ### 2.5.1 Make your own (15 points/ 10 points plot + 5 justification)
 
 Propose and code an alternative visualization for one of the visualizations *already in the article*. Add a short paragraph describing why your visualization is more (or less) *effective* based on principles of perception/cognition. 
 
 If you feel your visualization is worse, that's ok! Just tell us why.
 
-```python
+{% highlight python linenos %}
 # Sample visualization
 
 # We're going to fix the labels a bit so will create a mapping to the full names
@@ -1073,22 +1093,21 @@ names = {
 names_l = [names[ep] for ep in episodes]
 
 print("sort order: ",names_l)
-```
-```python
+{% endhighlight %}
+{% highlight python linenos %}
 
 bot3_gender = pd.DataFrame({'Name':['The Phantom Meanance','The Phantom Meanance', 'Attack of the clones','Attack of the clones', 'Revenge of the Sith','Revenge of the Sith', 'A New Hope','A New Hope', 'The Empire Strikes Back','The Empire Strikes Back', 'The Return of the Jedi', 'The Return of the Jedi'], 'Gender':['Male','Female','Male','Female','Male','Female','Male','Female','Male','Female','Male','Female'], 'percentage':[0.125265, 0.193206, 0.116773, 0.369427, 0.080679, 0.475584, 0.012739, 0.316348, 0.019108, 0.184713, 0.023355, 0.212314]})
 bot3_gender
-```
-```python
-
+{% endhighlight %}
+{% highlight python linenos %}
 mid3_gender = pd.DataFrame({'Name':['The Phantom Meanance','The Phantom Meanance', 'Attack of the clones','Attack of the clones', 'Revenge of the Sith','Revenge of the Sith', 'A New Hope','A New Hope', 'The Empire Strikes Back','The Empire Strikes Back', 'The Return of the Jedi', 'The Return of the Jedi'], 'Gender':['Male','Female','Male','Female','Male','Female','Male','Female','Male','Female','Male','Female'], 'percentage':[0.046709, 0.433121, 0.053079, 0.343949, 0.093418, 0.316348, 0.059448, 0.265393, 0.027601, 0.146497, 0.097665, 0.248408]})
 mid3_gender
-```
-```python
+{% endhighlight %}
+{% highlight python linenos %}
 top3_gender = pd.DataFrame({'Name':['The Phantom Meanance','The Phantom Meanance', 'Attack of the clones','Attack of the clones', 'Revenge of the Sith','Revenge of the Sith', 'A New Hope','A New Hope', 'The Empire Strikes Back','The Empire Strikes Back', 'The Return of the Jedi', 'The Return of the Jedi'], 'Gender':['Male','Female','Male','Female','Male','Female','Male','Female','Male','Female','Male','Female'], 'percentage':[0.016985, 0.027601, 0.019108, 0.021231, 0.014862, 0.016985, 0.116773, 0.036093, 0.142251, 0.050955, 0.067941, 0.029724]})
 top3_gender
-```
-```python
+{% endhighlight %}
+{% highlight python linenos %}
 bar = alt.Chart(top3_gender).mark_bar().encode(
     x=alt.X('Name',title='Movie Name',sort=names_l),
     y=alt.Y('percentage:Q',title='Percentage',axis=None),
@@ -1105,8 +1124,8 @@ top3_bygender=(bar + text).properties(
     title=['Top Third']
 )
 top3_bygender
-```
-```python
+{% endhighlight %}
+{% highlight python linenos %}
 bar = alt.Chart(mid3_gender).mark_bar().encode(
     x=alt.X('Name',title='Movie Name'),
     y=alt.Y('percentage:Q',axis=None,title='Percentage',),
@@ -1123,9 +1142,8 @@ mid3_bygender=(bar + text).properties(
     title=['Middle Third']
 )
 mid3_bygender
-```
-```python
-
+{% endhighlight %}
+{% highlight python linenos %}
 bar = alt.Chart(bot3_gender).mark_bar().encode(
     x=alt.X('Name',title='Movie Name'),
     y=alt.Y('percentage:Q',title='Percentage',axis=None),
@@ -1142,8 +1160,8 @@ bot3_bygender=(bar + text).properties(
     title=['Bottom Third']
 )
 bot3_bygender
-```
-```python
+{% endhighlight %}
+{% highlight python linenos %}
 alt.hconcat(top3_bygender, mid3_bygender, bot3_bygender).properties(
     title={
     "text":["How People Rate the 'Star Wars' Movies"],
@@ -1155,7 +1173,7 @@ alt.hconcat(top3_bygender, mid3_bygender, bot3_bygender).properties(
     # remove axis line
     grid=False, domain=False
 )
-```
+{% endhighlight %}
 *Provide your justification here*
 
 I add gender into the chart which contains more information. We can read that more male audiences vote for middle and bottom characters than female audiences, but it's probably caused by less female respondents than males. Besides, it is a little bit hard to interpret for human beings because movie names displays in vertically.
