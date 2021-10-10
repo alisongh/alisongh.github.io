@@ -13,7 +13,7 @@
 
 <script>
   function load_disqus() {
-    var disqus_shortname = '{{ alisongh }}',
+    var disqus_shortname = '{{ site.disqus-identifier }}',
       is_disqus_empty = document.getElementById('disqus_empty'),
       disqus_target = document.getElementById('disqus_thread'),
       disqus_embed = document.createElement('script'),
@@ -22,7 +22,7 @@
     if (disqus_target && is_disqus_empty) {
       disqus_embed.type = 'text/javascript';
       disqus_embed.async = true;
-      disqus_embed.src = '//' + alisongh + '.disqus.com/embed.js';
+      disqus_embed.src = '//' + disqus_shortname + '.disqus.com/embed.js';
       disqus_hook.appendChild(disqus_embed);
       is_disqus_empty.remove();
     }
