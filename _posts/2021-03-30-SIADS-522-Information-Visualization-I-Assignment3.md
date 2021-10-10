@@ -96,7 +96,6 @@ import altair as alt
 import numpy as np
 import math
 {% endhighlight %}
-
 {% highlight python linenos %}
 # enable correct rendering
 alt.renderers.enable('default')
@@ -104,11 +103,9 @@ alt.renderers.enable('default')
 # uses intermediate json files to speed things up
 alt.data_transformers.enable('json')
 {% endhighlight %}
-
 {% highlight python linenos %}
 sw = pd.read_csv('assets/StarWars.csv', encoding='latin1')
 {% endhighlight %}
-
 {% highlight python linenos %}
 # Some format is needed for the survey dataframe, we provide the formatted dataset in a dataframe 
 sw = sw.rename(columns={'Have you seen any of the 6 films in the Star Wars franchise?':'seen_any_movie',
@@ -142,7 +139,6 @@ sw = sw.rename(columns={'Have you seen any of the 6 films in the Star Wars franc
                        })
 sw = sw.drop([0])
 {% endhighlight %}
-
 {% highlight python linenos %}
 # take a peak to look at the data
 sw.sample(5)
@@ -195,7 +191,6 @@ total = len(seen_at_least_one)
 
 print("total who have seen at least one: ", total)
 {% endhighlight %}
-
 {% highlight python linenos %}
 # ok, time to make the chart... let's make a bar chart (use mark_bar)
 bars = alt.Chart(seen_per_df).mark_bar(size=20).encode(
@@ -215,7 +210,6 @@ bars = alt.Chart(seen_per_df).mark_bar(size=20).encode(
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 bars
 {% endhighlight %}
-
 {% highlight python linenos %}
 # we're going to overlay the text with the percentages, so let's make another visualization
 # that's just text labels
@@ -276,7 +270,6 @@ total = len(seen_all_movies)
 
 print("total who have seen all movies: ", total)
 {% endhighlight %}
-
 {% highlight python linenos %}
 # for each movie, we're going to calculate the percents and generate a new data frame
 percs = []
@@ -295,7 +288,6 @@ tuples = list(zip([names[ep] for ep in episodes],percs))
 rank_per_df = pd.DataFrame(tuples, columns = ['Name', 'Percentage'])
 rank_per_df
 {% endhighlight %}
-
 {% highlight python linenos %}
 # ok, time to make the chart... let's make a bar chart (use mark_bar)
 bars = alt.Chart(rank_per_df).mark_bar(size=20).encode(
@@ -315,7 +307,6 @@ bars = alt.Chart(rank_per_df).mark_bar(size=20).encode(
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 bars
 {% endhighlight %}
-
 {% highlight python linenos %}
 # we're going to overlay the text with the percentages, so let's make another visualization
 # that's just text labels
@@ -392,7 +383,6 @@ total = len(seen_all_movies)
 
 print("total who have seen all movies: ", total)
 {% endhighlight %}
-
 {% highlight python linenos %}
 # for each movie, we're going to calculate the percents and generate a new data frame
 percs = []
@@ -411,7 +401,6 @@ tuples = list(zip([names[ep] for ep in episodes],percs))
 top3_df = pd.DataFrame(tuples, columns = ['Name', 'Percentage'])
 top3_df
 {% endhighlight %}
-
 {% highlight python linenos %}
 # ok, time to make the chart... let's make a bar chart (use mark_bar)
 top3_bars = alt.Chart(top3_df).mark_bar(size=20, color='#77AB43').encode(
@@ -431,7 +420,6 @@ top3_bars = alt.Chart(top3_df).mark_bar(size=20, color='#77AB43').encode(
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 top3_bars
 {% endhighlight %}
-
 {% highlight python linenos %}
 # we're going to overlay the text with the percentages, so let's make another visualization
 # that's just text labels
@@ -461,7 +449,6 @@ top3_movies
 
 # note that we are NOT formatting this in the Five Thirty Eight Style yet... we'll leave that to you to figure out
 {% endhighlight %}
-
 {% highlight python linenos %}
 # for each movie, we're going to calculate the percents and generate a new data frame
 percs = []
@@ -480,7 +467,6 @@ tuples = list(zip([names[ep] for ep in episodes],percs))
 mid3_df = pd.DataFrame(tuples, columns = ['Name', 'Percentage'])
 mid3_df
 {% endhighlight %}
-
 {% highlight python linenos %}
 # ok, time to make the chart... let's make a bar chart (use mark_bar)
 mid3_bars = alt.Chart(mid3_df).mark_bar(size=20, color='#008FD5').encode(
@@ -500,7 +486,6 @@ mid3_bars = alt.Chart(mid3_df).mark_bar(size=20, color='#008FD5').encode(
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 mid3_bars
 {% endhighlight %}
-
 {% highlight python linenos %}
 # we're going to overlay the text with the percentages, so let's make another visualization
 # that's just text labels
@@ -530,7 +515,6 @@ mid3_movies
 
 # note that we are NOT formatting this in the Five Thirty Eight Style yet... we'll leave that to you to figure out
 {% endhighlight %}
-
 {% highlight python linenos %}
 # for each movie, we're going to calculate the percents and generate a new data frame
 percs = []
@@ -549,7 +533,6 @@ tuples = list(zip([names[ep] for ep in episodes],percs))
 bot3_df = pd.DataFrame(tuples, columns = ['Name', 'Percentage'])
 bot3_df
 {% endhighlight %}
-
 {% highlight python linenos %}
 # ok, time to make the chart... let's make a bar chart (use mark_bar)
 bot3_bars = alt.Chart(bot3_df).mark_bar(size=20, color='red').encode(
@@ -569,7 +552,6 @@ bot3_bars = alt.Chart(bot3_df).mark_bar(size=20, color='red').encode(
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 bot3_bars
 {% endhighlight %}
-
 {% highlight python linenos %}
 # we're going to overlay the text with the percentages, so let's make another visualization
 # that's just text labels
@@ -598,7 +580,6 @@ bot3_movies
 
 # note that we are NOT formatting this in the Five Thirty Eight Style yet... we'll leave that to you to figure out
 {% endhighlight %}
-
 {% highlight python linenos %}
 # Recreate this image using altair here (10 POINTS)
 
@@ -649,7 +630,6 @@ names_l = [names[ac] for ac in actors]
 
 print("sort order: ",names_l)
 {% endhighlight %}
-
 {% highlight python linenos %}
 
 # let's do some data pre-processing... sw (star wars) has everything
@@ -664,7 +644,6 @@ total = len(seen_at_least_one)
 
 print("total who have seen at least one: ", total)
 {% endhighlight %}
-
 {% highlight python linenos %}
 # for each movie, we're going to calculate the percents and generate a new data frame
 percs = []
@@ -683,7 +662,6 @@ tuples = list(zip([names[ac] for ac in actors],percs))
 fav_df = pd.DataFrame(tuples, columns = ['Name', 'Percentage'])
 fav_df
 {% endhighlight %}
-
 {% highlight python linenos %}
 # ok, time to make the chart... let's make a bar chart (use mark_bar)
 fav_bars = alt.Chart(fav_df).mark_bar(size=20, color='#77AB43').encode(
@@ -703,7 +681,6 @@ fav_bars = alt.Chart(fav_df).mark_bar(size=20, color='#77AB43').encode(
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 fav_bars
 {% endhighlight %}
-
 {% highlight python linenos %}
 # we're going to overlay the text with the percentages, so let's make another visualization
 # that's just text labels
@@ -732,7 +709,6 @@ fav_movies
 
 # note that we are NOT formatting this in the Five Thirty Eight Style yet... we'll leave that to you to figure out
 {% endhighlight %}
-
 {% highlight python linenos %}
 # for each movie, we're going to calculate the percents and generate a new data frame
 percs = []
@@ -751,7 +727,6 @@ tuples = list(zip([names[ac] for ac in actors],percs))
 neu_df = pd.DataFrame(tuples, columns = ['Name', 'Percentage'])
 neu_df
 {% endhighlight %}
-
 {% highlight python linenos %}
 # ok, time to make the chart... let's make a bar chart (use mark_bar)
 neu_bars = alt.Chart(neu_df).mark_bar(size=20, color='#008FD5').encode(
@@ -770,7 +745,6 @@ neu_bars = alt.Chart(neu_df).mark_bar(size=20, color='#008FD5').encode(
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 neu_bars
 {% endhighlight %}
-
 {% highlight python linenos %}
 # we're going to overlay the text with the percentages, so let's make another visualization
 # that's just text labels
@@ -799,7 +773,6 @@ neu_movies
 
 # note that we are NOT formatting this in the Five Thirty Eight Style yet... we'll leave that to you to figure out
 {% endhighlight %}
-
 {% highlight python linenos %}
 # for each movie, we're going to calculate the percents and generate a new data frame
 percs = []
@@ -818,7 +791,6 @@ tuples = list(zip([names[ac] for ac in actors],percs))
 unfav_df = pd.DataFrame(tuples, columns = ['Name', 'Percentage'])
 unfav_df
 {% endhighlight %}
-
 {% highlight python linenos %}
 # ok, time to make the chart... let's make a bar chart (use mark_bar)
 unfav_bars = alt.Chart(unfav_df).mark_bar(size=20, color='red').encode(
@@ -837,7 +809,6 @@ unfav_bars = alt.Chart(unfav_df).mark_bar(size=20, color='red').encode(
 # at this point we don't really have a great plot (it's missing the annotations, titles, etc.)
 unfav_bars
 {% endhighlight %}
-
 {% highlight python linenos %}
 # we're going to overlay the text with the percentages, so let's make another visualization
 # that's just text labels
@@ -866,7 +837,6 @@ unfav_movies
 
 # note that we are NOT formatting this in the Five Thirty Eight Style yet... we'll leave that to you to figure out
 {% endhighlight %}
-
 {% highlight python linenos %}
 # for each movie, we're going to calculate the percents and generate a new data frame
 percs = []
