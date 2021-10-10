@@ -1,6 +1,7 @@
 ---
 layout: post
-title: SIADS 502 Math Methods for Data Science Assignment 1
+title: SIADS 502 
+description: Math Methods for Data Science Assignment 1
 date: 2021-02-15
 image: '/images/07.jpg'
 tags: [data science, math]
