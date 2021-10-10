@@ -1,6 +1,7 @@
 ---
 layout: post
-title: SIADS 505 Data Manipulation Assignment 2
+title: SIADS 505 II
+description: Data Manipulation Assignment 2
 date: 2021-01-19
 image: '/images/04.jpg'
 tags: [data, datamanipulation, python]
