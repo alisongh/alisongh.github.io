@@ -3,7 +3,7 @@ layout: post
 title: SIADS 505 Data Manipulation Assignment 1
 date: 2021-01-12
 image: '/images/04.jpg'
-tags: [data, datamanipulation, python]
+tags: [data, data manipulation, python]
 ---
 * 目录
 {:toc}
