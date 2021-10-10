@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SIADS 505 II
+title: SIADS 505 
 description: Data Manipulation Assignment 2
 date: 2021-01-19
 image: '/images/04.jpg'
