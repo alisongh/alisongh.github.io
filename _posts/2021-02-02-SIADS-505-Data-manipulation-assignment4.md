@@ -4,7 +4,7 @@ title: SIADS 505
 description: Data Manipulation Assignment 4
 date: 2021-02-02
 image: '/images/04.jpg'
-tags: [data, data manipulation, python]
+tags: [data, data-manipulation, python]
 ---
 
 * 目录
