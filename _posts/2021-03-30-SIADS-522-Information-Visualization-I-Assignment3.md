@@ -90,7 +90,7 @@ To earn points for this assignment, you must:
 
 - Propose a new visualization to complement a part of the article. Add a short paragraph justifying your decisions in terms of Perception/Cognition processes.  (15 points/ 10 points plot + 5 justification)
 
-```python
+```
 import pandas as pd
 import altair as alt
 import numpy as np
