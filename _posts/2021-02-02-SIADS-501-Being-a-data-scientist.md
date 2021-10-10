@@ -4,7 +4,7 @@ title: SIADS 501
 description: Being a Data Scientist
 date: 2021-02-02
 image: '/images/06.jpg'
-tags: [data science]
+tags: [data-science]
 ---
 
 This is the [syllabus](https://drive.google.com/file/d/1MLrMWoEIVZXF3jGH1c4H7rSlY38uZqug/view?usp=sharing) for SIADS 501.
