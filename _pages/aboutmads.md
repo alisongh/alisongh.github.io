@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About MADS
+title: MADS
 permalink: /aboutmads/
 image: '/images/02.jpg'
 ---
