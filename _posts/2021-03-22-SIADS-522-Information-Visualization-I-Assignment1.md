@@ -1,6 +1,7 @@
 ---
 layout: post
-title: SIADS 522 Information Visualization I Assignment 1
+title: SIADS 522 
+description: Information Visualization I Assignment 1
 date: 2021-03-22
 image: '/images/09.jpg'
 tags: [data visualization, python, altair]
