@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About ME
 permalink: /about/
 image: '/images/03.jpg'
 ---
