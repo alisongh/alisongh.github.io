@@ -11,9 +11,6 @@ tags: [data-mining, python, massive datasets]
 
 ## Assignment 2: Mining Itemsets (Part V)
 
-#   
-Assignment 2: Mining Itemsets (Part V)[](https://render.githubusercontent.com/view/ipynb?color_mode=light&commit=3e2b370d2327decf05dfd498ec3a2e10d42fa780&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f616c69736f6e67682f4d4144532f336532623337306432333237646563663035646664343938656333613265313064343266613738302f53494144532532303533322f41737369676e6d656e74253230322f61737369676e6d656e74325f70617274352e6970796e62&nwo=alisongh%2FMADS&path=SIADS+532%2FAssignment+2%2Fassignment2_part5.ipynb&repository_id=337142879&repository_type=Repository#Assignment-2:-Mining-Itemsets-(Part-V))
-
 ### Itemset Similarity
 
 Recall from Week 1 that pattern and similarity are two basic outputs of data mining. So far, we have been playing with patterns - frequent itemsets and association rules can all be seen as "patterns". In the last part, let's work on itemset similarities.
