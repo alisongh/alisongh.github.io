@@ -49,7 +49,7 @@ In the returned data frame, each row examines one (antecedent -> consequent) pai
 
 Most interestingness measurements, including the four shown in the data frame (_confidence_,  _lift_,  _leverage_, and  _conviction_), can be derived from the three support values. For example,![$$\text{confidence}=\frac{\text{support}}{\text{antecedent_support}},$$](https://render.githubusercontent.com/render/math?math=%5Ctext%7Bconfidence%7D%3D%5Cfrac%7B%5Ctext%7Bsupport%7D%7D%7B%5Ctext%7Bantecedent_support%7D%7D%2C&mode=display)and![$$\text{lift} =\frac{\text{confidence}}{\text{consequent_support}}=\frac{\text{support}}{\text{antecedent_support} * \text{consequent_support}}$$](https://render.githubusercontent.com/render/math?math=%5Ctext%7Blift%7D%20%3D%5Cfrac%7B%5Ctext%7Bconfidence%7D%7D%7B%5Ctext%7Bconsequent_support%7D%7D%3D%5Cfrac%7B%5Ctext%7Bsupport%7D%7D%7B%5Ctext%7Bantecedent_support%7D%20%2A%20%5Ctext%7Bconsequent_support%7D%7D&mode=display)
 
-### Exercise 5. (15 pts)[](https://render.githubusercontent.com/view/ipynb?color_mode=light&commit=3e2b370d2327decf05dfd498ec3a2e10d42fa780&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f616c69736f6e67682f4d4144532f336532623337306432333237646563663035646664343938656333613265313064343266613738302f53494144532532303533322f41737369676e6d656e74253230322f61737369676e6d656e74325f70617274342e6970796e62&nwo=alisongh%2FMADS&path=SIADS+532%2FAssignment+2%2Fassignment2_part4.ipynb&repository_id=337142879&repository_type=Repository#Exercise-5.-(15-pts))
+### Exercise 5. (15 pts)
 
 In this exercise, we are going to implement another interestingness measurement, the (full) mutual information, and add a 'mutual information' column to the data frame. The measurement is defined as
 
