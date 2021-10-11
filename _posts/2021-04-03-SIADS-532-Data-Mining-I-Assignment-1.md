@@ -172,10 +172,9 @@ dn  =  hierarchy.dendrogram(Z,  labels  =  rownames,  orientation='right',  colo
 # this should genereate a hierarchy that shows which languages are closer to which
 {% endhighlight %}
 
-###   
-Exercise 2 (10 pts)
+### Exercise 2 (10 pts)
 
-Based on the dengdrogram above, can you conclude which language is closest to Javascript? Please change the value of the  `closest_language`  variable in the code block below to indicate your answers. For example, you may replace  `""`  with  `"Java"`.
+Based on the dengdrogram above, can you conclude which language is closest to Javascript? Please change the value of the  `closest_language`  variable in the code block below to indicate your answers. For example, you may replace  `""`  with  ``"Java"``.
 
 {% highlight python linenos %}
 # Change closest_language to the correct value  
