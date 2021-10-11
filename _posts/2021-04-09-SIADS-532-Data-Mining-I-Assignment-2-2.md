@@ -86,7 +86,12 @@ emoji_frequent_3itemsets = emoji_frequent_itemsets(emoji_matrix, min_support=0.0
 {% endhighlight %}
 {% highlight python linenos %}
   
-# This cell test whether the `emoji_frequent_itemsets` function is implemented correctly.  # We hide some tests, so passing all the displayed assertions does not guarantee full points.  emoji_frequent_3itemsets  =  emoji_frequent_itemsets(emoji_matrix,  min_support=0.005,  k=3)  for  row  in  emoji_frequent_3itemsets.itertuples():  assert  row.support  >=  0.005,  f"[Exercise 2] The support of the itemset {row.itemsets} is below the threshold."  assert  len(row.itemsets)  ==  3,  f"[Exercise 2] The itemset {row.itemsets} is not a 3-itemset."
+# This cell test whether the `emoji_frequent_itemsets` function is implemented correctly.  
+# We hide some tests, so passing all the displayed assertions does not guarantee full points.  
+emoji_frequent_3itemsets  =  emoji_frequent_itemsets(emoji_matrix,  min_support=0.005,  k=3)  
+for  row  in  emoji_frequent_3itemsets.itertuples():  
+    assert  row.support  >=  0.005,  f"[Exercise 2] The support of the itemset {row.itemsets} is below the threshold."  
+    assert  len(row.itemsets)  ==  3,  f"[Exercise 2] The itemset {row.itemsets} is not a 3-itemset."
 {% endhighlight %}
 If you are interested, you may also examine what the frequent 4-itemsets look like. Does the result make sense to you? (This part will not be graded.)
 {% highlight python linenos %}
