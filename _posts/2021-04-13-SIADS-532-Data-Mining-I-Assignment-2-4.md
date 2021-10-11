@@ -39,6 +39,7 @@ interestingness_measurements.head()
 {% endhighlight %}
   
 In the returned data frame, each row examines one (antecedent -> consequent) pair.  _Antecedent support_  and  _consequent support_  measure  _P_(antecedent) and  _P_(consequent), while  _support_  measures  _P_(antecedent, consequent). In fact, these three values help us characterize the  ![$2\times2$](https://render.githubusercontent.com/render/math?math=2%5Ctimes2&mode=inline)  contingency table, as illustrated in the following table:
+
 |  |  |  |  |
 |--|--|--|--|
 |  |X=1|X=0|sum(row)|
