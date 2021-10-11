@@ -3,7 +3,7 @@ layout: post
 title: SIADS 532 
 description: Data Mining I Assignment 1
 date: 2021-04-03
-image: '/images/09.jpg'
+image: '/images/11.jpg'
 tags: [data-mining, python, massive datasets]
 ---
 * 目录
