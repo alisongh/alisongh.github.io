@@ -28,7 +28,6 @@ def what:
   42
 end
 ~~~
-{: .language-python}
 
 ##### Exercise 6(a) (10 pts)
 
