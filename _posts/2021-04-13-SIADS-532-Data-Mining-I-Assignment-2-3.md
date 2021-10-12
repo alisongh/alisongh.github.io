@@ -23,7 +23,7 @@ from  sklearn.preprocessing  import  MultiLabelBinarizer
 {% endhighlight %}
 **NOTE: These are all the imports we need to make for this assignment (Part III). You should not make other imports in your submitted notebook. You will receive 0 points for the exercises if your solution includes additional imports.**
 
-##### A critical step of the Apriori algorithm is  _candidate generation_. That is, candidate  _(k+1)_-itemsets should be generated from frequent  _k_-itemsets. In the following exercise, we want you to generate candidate 3-itemsets based on the frequent 2-itemsets.[](https://render.githubusercontent.com/view/ipynb?color_mode=light&commit=3e2b370d2327decf05dfd498ec3a2e10d42fa780&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f616c69736f6e67682f4d4144532f336532623337306432333237646563663035646664343938656333613265313064343266613738302f53494144532532303533322f41737369676e6d656e74253230322f61737369676e6d656e74325f70617274332e6970796e62&nwo=alisongh%2FMADS&path=SIADS+532%2FAssignment+2%2Fassignment2_part3.ipynb&repository_id=337142879&repository_type=Repository#A-critical-step-of-the-Apriori-algorithm-is-candidate-generation.-That-is,-candidate-(k+1)-itemsets-should-be-generated-from-frequent-k-itemsets.-In-the-following-exercise,-we-want-you-to-generate-candidate-3-itemsets-based-on-the-frequent-2-itemsets.)
+##### A critical step of the Apriori algorithm is  _candidate generation_. That is, candidate  _(k+1)_-itemsets should be generated from frequent  _k_-itemsets. In the following exercise, we want you to generate candidate 3-itemsets based on the frequent 2-itemsets.
 
 ### Exercise 3 (25 pts)
 **Candidate Generation**  (20 pts)
