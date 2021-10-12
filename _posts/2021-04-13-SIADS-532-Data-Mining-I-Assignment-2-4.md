@@ -38,7 +38,7 @@ interestingness_measurements = association_rules(market_frequent_itemsets, metri
 interestingness_measurements.head()
 {% endhighlight %}
   
-In the returned data frame, each row examines one (antecedent -> consequent) pair.  _Antecedent support_  and  _consequent support_  measure  _P_(antecedent) and  _P_(consequent), while  _support_  measures  _P_(antecedent, consequent). In fact, these three values help us characterize the  ![$2\times2$](https://render.githubusercontent.com/render/math?math=2%5Ctimes2&mode=inline)  contingency table, as illustrated in the following table:
+In the returned data frame, each row examines one (antecedent -> consequent) pair.  _Antecedent support_  and  _consequent support_  measure  _P_(antecedent) and  _P_(consequent), while  _support_  measures  _P_(antecedent, consequent). In fact, these three values help us characterize the  $2\times2$ contingency table, as illustrated in the following table:
 
 |  |  |  |  |
 |--|--|--|--|
@@ -47,7 +47,7 @@ In the returned data frame, each row examines one (antecedent -> consequent) pai
 |Y=0|  |  |  |
 |sum(col.)|`ante_support`|  |  |
 
-Most interestingness measurements, including the four shown in the data frame (_confidence_,  _lift_,  _leverage_, and  _conviction_), can be derived from the three support values. For example,$$\text{confidence}=\frac{\text{support}}{\text{antecedent_support}},$$and$$\text{lift} =\frac{\text{confidence}}{\text{consequent_support}}=\frac{\text{support}}{\text{antecedent_support} * \text{consequent_support}}$$
+Most interestingness measurements, including the four shown in the data frame (_confidence_,  _lift_,  _leverage_, and  _conviction_), can be derived from the three support values. For example, $$\text{confidence}=\frac{\text{support}}{\text{antecedent_support}},$$and$$\text{lift} =\frac{\text{confidence}}{\text{consequent_support}}=\frac{\text{support}}{\text{antecedent_support} * \text{consequent_support}}$$
 ### Exercise 5. (15 pts)
 
 In this exercise, we are going to implement another interestingness measurement, the (full) mutual information, and add a 'mutual information' column to the data frame. The measurement is defined as
