@@ -30,7 +30,7 @@ For each sport I would like you to answer the question: **what is the win percen
 ## Question 1
 For this question, calculate the win percentage's correlation with the population of the city it is in for the **NHL** using **2018** data. The win percentage ratio should be calculated using the following formula: win/(win+loss).
 
-```python
+{% highlight python linenos %}
 import pandas as pd
 import numpy as np
 import scipy.stats as stats
@@ -90,14 +90,15 @@ def nhl_correlation():
     return stats.pearsonr(population_by_region, win_loss_by_region)[0]
 
 nhl_correlation()
-```
+{% endhighlight %}
 **Output**
+{% highlight linenos %}
 0.012486162921209907
-
+{% endhighlight %}
 ## Question 2
 For this question, calculate the win percentage's correlation with the population of the city it is in for the **NBA** using **2018** data.
 
-```python
+{% highlight python linenos %}
 import pandas as pd
 import numpy as np
 import scipy.stats as stats
@@ -151,14 +152,15 @@ def nba_correlation():
     return stats.pearsonr(population_by_region, win_loss_by_region)[0]
 
 nba_correlation()
-```
+{% endhighlight %}
 **Output**
+{% highlight linenos %}
 -0.17657160252844617
-
+{% endhighlight %}
 ## Question 3
 For this question, calculate the win percentage's correlation with the population of the city it is in for the **MLB** using **2018** data.
 
-```python
+{% highlight python linenos %}
 import pandas as pd
 import numpy as np
 import scipy.stats as stats
@@ -208,14 +210,15 @@ def mlb_correlation():
     return stats.pearsonr(population_by_region, win_loss_by_region)[0]
 
 mlb_correlation()
-```
+{% endhighlight %}
 **Output**
+{% highlight linenos %}
 0.15003737475409495
-
+{% endhighlight %}
 
 ## Question 4
 For this question, calculate the win percentage's correlation with the population of the city it is in for the **NFL** using **2018** data.
-```python
+{% highlight python linenos %}
 import pandas as pd
 import numpy as np
 import scipy.stats as stats
@@ -278,16 +281,17 @@ def nfl_correlation():
     return stats.pearsonr(population_by_region, win_loss_by_region)[0]
 
 nfl_correlation()
-```
+{% endhighlight %}
 
 **Output**
+{% highlight linenos %}
 0.004282141436393017
-
+{% endhighlight %}
 
 ## Question 5
 In this question I would like you to explore the hypothesis that **given that an area has two sports teams in different sports, those teams will perform the same within their respective sports**. How I would like to see this explored is with a series of paired t-tests (so use [`ttest_rel`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_rel.html)) between all pairs of sports. Are there any sports where we can reject the null hypothesis? Again, average values where a sport has multiple teams in one region. Remember, you will only be including, for each sport, cities which have teams engaged in that sport, drop others as appropriate. This question is worth 20% of the grade for this assignment.
 
-```python
+{% highlight python linenos %}
 import pandas as pd
 import numpy as np
 import scipy.stats as stats
@@ -448,4 +452,4 @@ def sports_team_performance():
     return p_values
 
 sports_team_performance()
-```
+{% endhighlight %}
