@@ -44,18 +44,6 @@ Full Score: 🌟🌟🌟🌟🌟
   * [SIADS 516 Big Data Scalable Data Processing](#SIADS-516-Big-Data-Scalable-Data-Processing)
   * [SIADS 542 Supervised Learning](#SIADS-542-Supervised-Learning)
 
-## Personal Background:
-### Education
-
-[LinkedIn](https://www.linkedin.com/in/alisonliwenhuang/)
-
-### Background
-* Python: :snake::snake:
-* MySQL: :dolphin:
-:flipper:
-* Math and Statistic: :hatched_chick:
-* Other coding: :zero:
-
 ## MADS Course review:
 ### SIADS 501 Being a Data Scientist
 * Medium workload
