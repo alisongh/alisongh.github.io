@@ -21,7 +21,7 @@ In this assignment, you will:
 
 -   Represent the dataset as a collection of itemsets and mine frequent patterns from it.
 -   Get familiar with a set of metrics for measuring the importance of patterns (support, frequency, lift, chi-square, mutual information).
--   Calculate Jaccard similarity and find the top  ![$k$](https://render.githubusercontent.com/render/math?math=k&mode=inline)  similar itemsets to a given itemset.
+-   Calculate Jaccard similarity and find the top  $k$ similar itemsets to a given itemset.
 -   Understand Apriori and implement a part of the algorithm.
 
 Have fun and cheers!🍻
