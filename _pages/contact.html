@@ -16,7 +16,7 @@ image: '/images/05.jpg'
     </div>
     <div class="form__group">
       <label class="form__label screen-reader-text" for="form-email">Your Email</label>
-      <input class="form__input" id="form-email" input type="email" name="_replyto" placeholder="Email" required>
+      <input class="form__input" id="form-email" input pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" name="_replyto" placeholder="Email" required>
     </div>
     <div class="form__group">
       <label class="form__label screen-reader-text" for="form-text">Your Message</label>
