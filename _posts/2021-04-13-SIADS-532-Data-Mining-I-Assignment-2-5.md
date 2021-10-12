@@ -23,11 +23,6 @@ $$
 \text{Jaccard_similarity(A, B)} = \frac{|A\cap B|}{|A\cup B|} 
 $$
 
-~~~
-def what:
-  42
-end
-~~~
 
 ##### Exercise 6(a) (10 pts)
 
