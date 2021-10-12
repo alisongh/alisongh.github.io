@@ -2,7 +2,7 @@
 layout: post
 title: SIADS 505 
 description: Data Manipulation Assignment 1
-date: 2021-01-12
+date: 2001-01-12
 image: '/images/04.jpg'
 tags: [data, data-manipulation, python]
 multipage: true
