@@ -18,10 +18,7 @@ Recall from Week 1 that pattern and similarity are two basic outputs of data min
 #### Exercise 6. Jaccard Similarity (20 pts)
 
 Jaccard similarity is a simple but powerful measurement of itemset similarity, defined as follows:
-
-$$ 
-\text{Jaccard_similarity(A, B)} = \frac{|A\cap B|}{|A\cup B|} 
-$$
+$ \text{Jaccard_similarity(A, B)} = \frac{|A\cap B|}{|A\cup B|} $
 
 
 ##### Exercise 6(a) (10 pts)
