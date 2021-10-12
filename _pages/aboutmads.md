@@ -28,21 +28,8 @@ Full Score: 🌟🌟🌟🌟🌟
 #### Difficulty: 🌟🌟🌟; Instructors: 🌟🌟🌟; TAs: 🌟🌟☆
 
 # Table of Contents
-- [Personal Background](#Personal-Background)
-  * [Edcuation](#Education)
-  * [Professional Experiences](#Professional-Experiences)
-- [MADS Course review](#MADS-Course-review)
-  * [SIADS 501 Being a Data Scientist](#SIADS-501-Being-a-Data-Scientist)
-  * [SIADS 505 Data Manipulation](#SIADS-505-Data-Manipulation)
-  * [SIADS 502 Math Method for Data Science](#SIADS-502-Math-Method-for-Data-Science)
-  * [SIADS 522 Information Visualization I](#SIADS-522-Information-Visualization-I)
-  * [SIADS 521 Visual Exploration of Data](#SIADS-521-Visual-Exploration-of-Data)
-  * [SIADS 532 Data Mining I](#SIADS-532-Data-Mining-I)
-  * [SIADS 622 Information Visualization II](#SIADS-622-Information-Visualization-II)
-  * [SIADS 511 SQL and Database](#SIADS-511-SQL-and-Database)
-  * [SIADS 515 Efficient Data Processing](#SIADS-515-Efficient-Data-Processing)
-  * [SIADS 516 Big Data Scalable Data Processing](#SIADS-516-Big-Data-Scalable-Data-Processing)
-  * [SIADS 542 Supervised Learning](#SIADS-542-Supervised-Learning)
+* 目录
+{:toc}
 
 ## MADS Course review:
 ### SIADS 501 Being a Data Scientist
