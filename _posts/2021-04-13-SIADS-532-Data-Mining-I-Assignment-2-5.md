@@ -21,7 +21,7 @@ Jaccard similarity is a simple but powerful measurement of itemset similarity, d
 
 $$
 \begin{aligned}
-  &\text{Jaccard_similarity(A, B)} = \frac{|A\cap B|}{|A\cup B|}
+  \text{Jaccard_similarity(A, B)} = \frac{|A\cap B|}{|A\cup B|}
 \end{aligned}
 $$
 
