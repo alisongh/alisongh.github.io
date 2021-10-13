@@ -23,11 +23,10 @@ If you are a current MADS student, please join the [Official MADS Slack Group](h
 Full Score: 🌟🌟🌟🌟🌟
 ### Overall Score of the program: 🌟🌟☆
 ### Recommendation: 🌟🌟
-#### Tuition: 🌟🌟🌟🌟🌟; Structure: 🌟☆; Completeness: 🌟☆
+**Tuition: 🌟🌟🌟🌟🌟; Structure: 🌟☆; Completeness: 🌟☆**
 
-#### Difficulty: 🌟🌟🌟; Instructors: 🌟🌟🌟; TAs: 🌟🌟☆
+**Difficulty: 🌟🌟🌟; Instructors: 🌟🌟🌟; TAs: 🌟🌟☆**
 
-# Table of Contents
 * 目录
 {:toc}
 
