@@ -16,7 +16,7 @@ Winter 2021 Cohort
 
 The MADS Program is designed for students from all over the world who have full-time/part-time jobs and can only take courses virtually by the University of Michigan, Ann Arbor, School of Information. The MADS course was designed and structured by the instructional designers, served by senior professors from the UM, and taught by other instructors. The course curriculum, videos, the choice of textbooks, and reading materials were created and provided by the instructional designers who developed the course. Other UM instructors teach the courses and hold office hours for students who are attending. The majority of the time, the instructors receive feedback from students and bring them to the department. Sometimes, the instructional designer does not have a chance to get feedback.
 
-If you are a current MADS student, please join the [Official MADS Slack Group](umich-mads.slack.com). 
+If you are a current MADS student, please join the [Official MADS Slack Group](https://umich-mads.slack.com/) (You need to use UMICH email to sign in). 
 
 ## Evaluation
 
