@@ -31,7 +31,9 @@ The MADS Program is designed for students from all over the world who have full-
 
 If you are a current MADS student, please join the [Official MADS Slack Group](https://umich-mads.slack.com/) (You need to use UMICH email to sign in). 
 
-## Evaluation
+<h2 id="evaluation">
+    Evaluation
+</h2>
 
 Full Score: 🌟🌟🌟🌟🌟
 ### Overall Score of the program: 🌟🌟☆
