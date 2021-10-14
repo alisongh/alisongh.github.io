@@ -28,39 +28,17 @@ Winter 2021 Cohort
             <li>
                 <a href="#mads-course-review">MADS Course Review</a>
                 <ul>
-                    <li>
-                        <a href="#siads-501-being-a-data-scientist">SIADS 501 Being a Data Scientist</a>
-                    </li>
-                    <li>
-                        <a href="#siads-505-data-manipulation">SIADS 505 Data Manipulation</a>
-                    </li>
-                    <li>
-                        <a href="#siads-502-math-method-for-data-science>SIADS 502 Math Method for Data Science</a>
-                    </li>
-                    <li>
-                        <a href="#siads-522-information-visualization-i>SIADS 522 Information Visualization I</a>
-                    </li>
-                    <li>
-                        <a href="#siads-521-visual-exploration-data>SIADS 521 Visual Exploration Data</a>
-                    </li>
-                    <li>
-                        <a href="#siads-532-data-mining-i>SIADS 532 Data Mining I</a>
-                    </li>
-                    <li>
-                        <a href="#siads-622-information-visualizaiton-ii>SIADS 622 Information Visualizaiton II</a>
-                    </li>
-                    <li>
-                        <a href="#siads-511-sql-and-database>SIADS 511 SQL and Database</a>
-                    </li>
-                    <li>
-                        <a href="#siads-515-efficient-data-processing>SIADS 515 Efficient Data Processing</a>
-                    </li>
-                    <li>
-                        <a href="#siads-516-big-data-scalable-data-processing>SIADS 516 Big Data Scalable Data Processing</a>
-                    </li>
-                    <li>
-                        <a href="#siads-542-supervised-learning>SIADS 542 Supervised Learning</a>
-                    </li>
+                    <li><a href="#siads-501-being-a-data-scientist">SIADS 501 Being a Data Scientist</a></li>
+                    <li><a href="#siads-505-data-manipulation">SIADS 505 Data Manipulation</a></li>
+                    <li><a href="#siads-502-math-method-for-data-science>SIADS 502 Math Method for Data Science</a></li>
+                    <li><a href="#siads-522-information-visualization-i>SIADS 522 Information Visualization I</a></li>
+                    <li><a href="#siads-521-visual-exploration-data>SIADS 521 Visual Exploration Data</a></li>
+                    <li><a href="#siads-532-data-mining-i>SIADS 532 Data Mining I</a></li>
+                    <li><a href="#siads-622-information-visualizaiton-ii>SIADS 622 Information Visualizaiton II</a></li>
+                    <li><a href="#siads-511-sql-and-database>SIADS 511 SQL and Database</a></li>
+                    <li><a href="#siads-515-efficient-data-processing>SIADS 515 Efficient Data Processing</a></li>
+                    <li><a href="#siads-516-big-data-scalable-data-processing>SIADS 516 Big Data Scalable Data Processing</a></li>
+                    <li><a href="#siads-542-supervised-learning>SIADS 542 Supervised Learning</a></li>
                 </ul>
             </li>
         </ul>
