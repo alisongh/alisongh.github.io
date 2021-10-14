@@ -28,7 +28,7 @@ Winter 2021 Cohort
             <a href="#mads-course-review">MADS Course Review</a>
             <ul>
                 <li>
-                    <a href="#siads-501-being-a-data-science">SIADS 501 Being a Data Science</a>
+                    <a href="#siads-501-being-a-data-scientist">SIADS 501 Being a Data Scientist</a>
                 </li>
                 <li>
                     <a href="#siads-505-data-manipulation">SIADS 505 Data Manipulation</a>
@@ -37,13 +37,13 @@ Winter 2021 Cohort
                     <a href="#siads-502-math-method-for-data-science>SIADS 502 Math Method for Data Science</a>
                 </li>
                 <li>
-                    <a href="#siads-522-information-visualization-i>SIADS 522 Information Visualizaiton I</a>
+                    <a href="#siads-522-information-visualization-i>SIADS 522 Information Visualization I</a>
                 </li>
                 <li>
                     <a href="#siads-521-visual-exploration-data>SIADS 521 Visual Exploration Data</a>
                 </li>
                 <li>
-                    <a href="#siads-532-data-mining-i>SIADS 532 Data Mining</a>
+                    <a href="#siads-532-data-mining-i>SIADS 532 Data Mining I</a>
                 </li>
                 <li>
                     <a href="#siads-622-information-visualizaiton-ii>SIADS 622 Information Visualizaiton II</a>
