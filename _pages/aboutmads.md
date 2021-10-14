@@ -19,7 +19,7 @@ Winter 2021 Cohort
     <div id="text-table-of-contents">
       <ul>
         <li>
-          <a href="https://github.com/alisongh/alisongh.github.io/blob/main/_pages/aboutmads.md#----evaluation">1. Evaluation</a>
+          <a href="#evaluation">1. Evaluation</a>
         </li>
       </ul>
   </div>
