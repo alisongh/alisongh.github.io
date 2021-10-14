@@ -12,7 +12,7 @@ Winter 2021 Cohort
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alisongh/MADS/HEAD)
 <style>
-    #toc {
+    #table-of-contents {
       position: fixed;
       right: 0;
       top: 0;
