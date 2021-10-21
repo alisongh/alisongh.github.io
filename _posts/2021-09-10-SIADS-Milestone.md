@@ -7,4 +7,4 @@ image: '/images/16.jpg'
 tags: [milestone, python]
 ---
 
-<embed src="/images/Milestone project.pdf" width="800px" height="2100px" />
+<embed src="/images/Milestone project.pdf" width="1200px" height="2500px" />
