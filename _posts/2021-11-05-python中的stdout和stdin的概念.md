@@ -50,6 +50,7 @@ print(num)
 ```
 
 **Differences between `input()` and `sys.stdin.readline()` functions:**
+
 | input() | sys.stdin.readline()|
 | ---- | ----|
 |The input takes input from the user but doesn't read escape character| The readline() also takes input from the user but also reads the escape character|
