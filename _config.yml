@@ -62,7 +62,11 @@ mailchimp-identifier: "github.us5.list-manage.com/subscribe/post?u=d44e91f32e81e
 # Build settings
 markdown: kramdown
 permalink: pretty
-syntax_highlighter: rouge
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
