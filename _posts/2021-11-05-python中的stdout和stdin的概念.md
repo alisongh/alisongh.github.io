@@ -15,7 +15,7 @@ so that input instead comes from a file. This can be very useful for automating 
 ## About `sys.stdout.write()` and `print()`
 When you call the `print(obj)` function, it actually call the `sys.stdout.write(obj + '\n')` like below:
 
-```py
+```python
 import sys
 sys.stdout.write("hello" + "\n")
 print(hello)
