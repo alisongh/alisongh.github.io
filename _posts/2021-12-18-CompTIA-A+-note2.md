@@ -3,7 +3,7 @@ layout: post
 title: CompTIA A+ Chapter 2 PC Assembly
 description: Lecture Note
 date: 2021-12-18
-image: '/images/20.jpg'
+image: '/images/20.png'
 tags: [CompTIA A+, Cybersecurity]
 ---
 
