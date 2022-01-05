@@ -49,6 +49,7 @@ Winter 2021 Cohort
                     <li><a href="#siads-516-big-data-scalable-data-processing">SIADS 516 Big Data Scalable Data Processing</a></li>
                     <li><a href="#siads-542-supervised-learning">SIADS 542 Supervised Learning</a></li>
                     <li><a href="#siads-642-deep-learning">SIADS 642 Deep Learning</a></li>
+                    <li><a href="#siads-523-communicating-data-science-results">SIADS 523 Communicating Data Science Results</a></li>
                 </ul>
             </li>
         </ul>
@@ -152,3 +153,9 @@ Full Score: 🌟🌟🌟🌟🌟
 * NO CODING !!
 * Score: ☆
 * This is a NO CODING and the ONLY deep learning course in MADS program. If you want to learn how to code a deep learning project in Python, please go away and self-study. The quality of the video and content is too much lower than the University of Mich in-person course. The TOTAL length of 642 videos is only 132 minutes which is even shorter than TWO in-person deep learning courses. Typically, the length of ONE in-person deep learning course is about 90 minutes. If you want to learn real things about deep learning, please check out [EECS 498 course](https://web.eecs.umich.edu/~justincj/teaching/eecs498/FA2020/) taught by Justin Johnson. He also taught Stanford University CS 231N course which is an awesome deep learning course. He uploads and shares all course recordings via [Google Drive](https://drive.google.com/drive/folders/1LXriM9h8WNJGErlYQXIrNNytAzVaHBjF) and you can watch them free with your UMICH account. AGAIN, the University of Michigan treats MADS students different from their in-person students and provides much better and higher qualified instructors, professors, and TAs to their in-person students. 
+
+### SIADS 523 Communicating Data Science Results 
+* Very light workload
+* NO CODING
+* Score: ☆
+* This is not a data science related course. The only valuable information provided by the instructor is the Gale Business Demographicsnow. This course introduces several methods and provides some templates of PowerPoint slides. Instead of data science communication, this is a "How to make a PowerPoint for the presentation" course. The only opportunity to communicate with "someone" is the **5-minute** presentation without showing off your face, which means the whole presentation only presents the slides and your voice. Moreover, you don't have an opportunity to speak or communicate with a real person. You just recorded the presentation and sent out the recording, which doesn't make any sense as a communication course. The only part of real communication is chatting with classmates and instructors via Slack. The top three communication skills are active listening, sharing feedback, and communication methods. None of them applied to this course. Since the presentation's audience is the instruction team, meaning they are knowledgeable about data science, you do not need to use different skills to adapt yourself to different circumstances. The result/feedback was provided two or three weeks later, so you do not get timely feedback from the audience. The only communication method is talking to your computer like a robot.
