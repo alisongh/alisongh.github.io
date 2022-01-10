@@ -28,11 +28,11 @@ image: '/images/03.jpg'
 
 ### SKILLS
 
-• Certifcations: CompTIA A+, EMT-B
-• Languages: Python, MySQL, PostgreSQL, LATEX, Chinese(Mandarin)
-• Software: Atlassian (Bitbucket, Jira, Confluence), Microsoft (Office, Visual Studio), Cisco Packet Tracer, Oracle
+* **Certifcations**: CompTIA A+, EMT-B
+* **Languages**: Python, MySQL, PostgreSQL, LATEX, Chinese(Mandarin)
+* **Software**: Atlassian (Bitbucket, Jira, Confluence), Microsoft (Office, Visual Studio), Cisco Packet Tracer, Oracle
 VM VirtualBox, Salesforce
-• Skills: TCP/IP, Network and Cabling, Operating Systems, Malware Security, Data Security, Hardware configuration
+* **Skills**: TCP/IP, Network and Cabling, Operating Systems, Malware Security, Data Security, Hardware configuration
 and installation, Project management, Time management, End User Support, Testing, Organization
 
 
