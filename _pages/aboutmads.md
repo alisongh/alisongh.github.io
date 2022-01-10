@@ -66,7 +66,7 @@ If you are a current MADS student, please join the [Official MADS Slack Group](h
     Evaluation
 </h2>
 
-<div class="warning" style='background-color:#654C4F; color: #B26E63; border-left: solid #C0CAAD 4px; border-radius: 4px; padding:0.7em;'>
+<div class="warning" style='background-color:#384E77; color: #E6F9AF; border-left: solid #8BBEB2 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 <p style='margin-top:1em; text-align:center'>
 <b>Evaluation of the Program</b></p>
