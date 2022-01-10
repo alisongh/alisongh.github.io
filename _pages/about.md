@@ -30,7 +30,7 @@ scripting.
 ### SKILLS
 
 * **Certifcations**: CompTIA A+, EMT-B
-* **Languages**: Python, MySQL, PostgreSQL, $\normalsize LATEX$, Chinese(Mandarin)
+* **Languages**: Python, MySQL, PostgreSQL, LATEX, Chinese(Mandarin)
 * **Software**: Atlassian (Bitbucket, Jira, Confluence), Microsoft (Office, Visual Studio), Cisco Packet Tracer, Oracle
 VM VirtualBox, Salesforce
 * **Skills**: TCP/IP, Network and Cabling, Operating Systems, Malware Security, Data Security, Hardware configuration
