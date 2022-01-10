@@ -72,10 +72,10 @@ If you are a current MADS student, please join the [Official MADS Slack Group](h
 <b>Evaluation of the Program</b></p>
 <p style='margin-left:1em;'>
 Full Score: 🌟🌟🌟🌟🌟
-<br>Overall Score of the program: 🌟🌟</br> 
-<br>Recommendation:🌟☆</br>
-<br>Tuition: 🌟🌟🌟🌟🌟; Structure: 🌟☆; Completeness: 🌟☆</br>
-<br>Difficulty: 🌟🌟🌟; Instructors: 🌟🌟🌟; TAs: 🌟🌟☆</br>
+<br>Overall Score of the program: 🌟🌟
+<br>Recommendation:🌟☆
+<br>Tuition: 🌟🌟🌟🌟🌟; Structure: 🌟☆; Completeness: 🌟☆
+<br>Difficulty: 🌟🌟🌟; Instructors: 🌟🌟🌟; TAs: 🌟🌟☆
 </p>
 </span>
 </div>
