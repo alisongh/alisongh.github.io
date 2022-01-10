@@ -28,12 +28,12 @@ image: '/images/03.jpg'
 
 ### SKILLS
 
-- Management (5 years)
-- SQL, Python, Data Science
-- Customer Services (5+ years)
-- Microsoft Office (5+ years)
-- Chinese/Mandarin
-- NREMT/BLS
+• Certifcations: CompTIA A+, EMT-B
+• Languages: Python, MySQL, PostgreSQL, LATEX, Chinese(Mandarin)
+• Software: Atlassian (Bitbucket, Jira, Confluence), Microsoft (Office, Visual Studio), Cisco Packet Tracer, Oracle
+VM VirtualBox, Salesforce
+• Skills: TCP/IP, Network and Cabling, Operating Systems, Malware Security, Data Security, Hardware configuration
+and installation, Project management, Time management, End User Support, Testing, Organization
 
 
 ### EDUCATION
