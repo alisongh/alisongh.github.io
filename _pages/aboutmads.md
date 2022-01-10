@@ -72,8 +72,8 @@ If you are a current MADS student, please join the [Official MADS Slack Group](h
 <b>Evaluation of the Program</b></p>
 <p style='margin-left:1em; text-align:center'>
 Full Score: 🌟🌟🌟🌟🌟
-<br><b>Overall Score of the program: 🌟🌟
-<br><b>Recommendation:🌟☆
+<br><b>Overall Score of the program: 🌟🌟</b>
+<br><b>Recommendation:🌟☆</b>
 <br>Tuition: 🌟🌟🌟🌟🌟; Structure: 🌟☆; Completeness: 🌟☆
 <br>Difficulty: 🌟🌟🌟; Instructors: 🌟🌟🌟; TAs: 🌟🌟☆
 </p>
