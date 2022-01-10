@@ -10,11 +10,12 @@ image: '/images/03.jpg'
 
 ### SUMMARY
 
-- 5+ years of experience in Customer Relations Management including experience in customer service, formulate customer service policy, build, and develop CRM system.
-- 7+ years of experience in the education of international students.
-- Experiences in programming in Python, SQL, JIRA, and Confluence.
-- Bilingual with fluent verbal and written skills in English and Chinese languages.
-- Experienced in dealing with different cultures and nationalities.
+Motivated student leveraging studies in Data Science seeks real-world experience in identifying opportunities
+and strategizing methods for improvement. Results-driven Cyber Security student with passion for
+aligning security architecture plans and processes with security standards and business goals. Demonstrated skill
+identifying business risks and compliance issues and designing proactive solution. Detail-oriented, methodical
+and enterprising with strong focus on devising and running effective processes. Proficient in Python and SQL
+scripting.
 
 ### PROFESSIONAL EXPERIENCES
 
@@ -29,7 +30,7 @@ image: '/images/03.jpg'
 ### SKILLS
 
 * **Certifcations**: CompTIA A+, EMT-B
-* **Languages**: Python, MySQL, PostgreSQL, LATEX, Chinese(Mandarin)
+* **Languages**: Python, MySQL, PostgreSQL, $LATEX$, Chinese(Mandarin)
 * **Software**: Atlassian (Bitbucket, Jira, Confluence), Microsoft (Office, Visual Studio), Cisco Packet Tracer, Oracle
 VM VirtualBox, Salesforce
 * **Skills**: TCP/IP, Network and Cabling, Operating Systems, Malware Security, Data Security, Hardware configuration
