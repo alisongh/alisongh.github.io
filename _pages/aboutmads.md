@@ -73,6 +73,23 @@ Full Score: 🌟🌟🌟🌟🌟
 
 **Difficulty: 🌟🌟🌟; Instructors: 🌟🌟🌟; TAs: 🌟🌟☆**
 
+<div class="warning" style='background-color:#7A4419; color: #D7BE82; border-left: solid #400406 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<b>Evaluation of the Program</b></p>
+<p style='margin-left:1em;'>
+Full Score: 🌟🌟🌟🌟🌟
+Overall Score of the program: 🌟🌟
+    
+Recommendation:🌟☆
+    
+Tuition: 🌟🌟🌟🌟🌟; Structure: 🌟☆; Completeness: 🌟☆
+
+Difficulty: 🌟🌟🌟; Instructors: 🌟🌟🌟; TAs: 🌟🌟☆
+</p>
+</span>
+</div>
+
 ## MADS Course review:
 ### SIADS 501 Being a Data Scientist
 * Medium workload
