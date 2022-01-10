@@ -66,13 +66,6 @@ If you are a current MADS student, please join the [Official MADS Slack Group](h
     Evaluation
 </h2>
 
-Full Score: 🌟🌟🌟🌟🌟
-### Overall Score of the program: 🌟🌟
-### Recommendation:🌟☆
-**Tuition: 🌟🌟🌟🌟🌟; Structure: 🌟☆; Completeness: 🌟☆**
-
-**Difficulty: 🌟🌟🌟; Instructors: 🌟🌟🌟; TAs: 🌟🌟☆**
-
 <div class="warning" style='background-color:#7A4419; color: #D7BE82; border-left: solid #400406 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 <p style='margin-top:1em; text-align:center'>
