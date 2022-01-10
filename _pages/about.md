@@ -42,6 +42,10 @@ image: '/images/03.jpg'
 
 _University of Michigan, 2023_
 
+**Cybersecurity in AI, Certification**
+
+_University of North Carolina at Charlotte, 2022_
+
 **Entrepreneurship, Bachelor of Science**
 
 _University of North Carolina at Greensboro, 2015_
