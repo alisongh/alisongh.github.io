@@ -180,3 +180,9 @@ Full Score: 🌟🌟🌟🌟🌟
 * NO CODING
 * Score: ☆
 * This is not a data science related course. The only valuable information provided by the instructor is the Gale Business Demographicsnow. This course introduces several methods and provides some templates of PowerPoint slides. Instead of data science communication, this is a "How to make a PowerPoint for the presentation" course. The only opportunity to communicate with "someone" is the **5-minute** presentation without showing off your face, which means the whole presentation only presents the slides and your voice. Moreover, you don't have an opportunity to speak or communicate with a real person. You just recorded the presentation and sent out the recording, which doesn't make any sense as a communication course. The only part of real communication is chatting with classmates and instructors via Slack. The top three communication skills are active listening, sharing feedback, and communication methods. None of them applied to this course. Since the presentation's audience is the instruction team, meaning they are knowledgeable about data science, you do not need to use different skills to adapt yourself to different circumstances. The result/feedback was provided two or three weeks later, so you do not get timely feedback from the audience. The only communication method is talking to your computer like a robot.
+
+### SIADS 524 Presenting Uncertainty
+* Medium to heavy workload
+* Medium to heavy coding load (Python; Pandas; Altair)
+* Score: 🌟🌟
+* This is a course to review Altair library which is creating visulizations. The textbook, videos and assignments don't have much relationships. You don't need to watch videos and read textbook to finish assignments. All need is to find out 622 assingments and recall all painful experiences of using Altair. There should be a course teaching other methods and tools to create visualization instead of using Altair only.  
