@@ -49,6 +49,7 @@ Winter 2021 Cohort
                     <li><a href="#siads-516-big-data-scalable-data-processing">SIADS 516 Big Data Scalable Data Processing</a></li>
                     <li><a href="#siads-542-supervised-learning">SIADS 542 Supervised Learning</a></li>
                     <li><a href="#SIADS-543-Unsupervised-Learning">SIADS 543 Unsupervised Learning</a></li>
+                    <li><a href="#SIADS-630-Causal-Inference">SIADS 630 Causal Inference</a></li>
                     <li><a href="#siads-642-deep-learning">SIADS 642 Deep Learning</a></li>
                     <li><a href="#siads-523-communicating-data-science-results">SIADS 523 Communicating Data Science Results</a></li>
                 </ul>
@@ -161,6 +162,12 @@ Full Score: 🌟🌟🌟🌟🌟
 * Medium coding load (Python; Scikit-learn; Pandas; Numpy)
 * Score: 🌟🌟🌟
 * This is a decent unsupervised learning course. The assignments are not hard and there's not many students asked questions during the course. The instructor and TAs worked very well. They answered questions timely and held OHs responsibly. However, there's still a lot of information and materials in PCA and feature engineering areas could be taught. PCA is a core section of Machine Learning and there's no single course teaching it. 
+
+### SIADS 630 Causal Inference 
+* Light workload
+* Light coding load (Python; Numpy; Statsmodel)
+* Score: ☆
+* This course talks about Causal Inference which is very useful and interesting. However the course itself is absolutely not well prepared. The instructor never responses any questions, comments and posts directly on the Slack Channel and pushes all of them to TA and OH. The instructor created a form to collect questions. However, he/she only repeated the conception, like 1 plus 1 equals to 2, on the OH and doesn't answer any questions or clarify any concerns. Don't understand why he/she collects questions, but not answer them. The contents of the slides and video are useless, just copy and paste from the book Master Metrics.
 
 ### SIADS 642 Deep Learning
 * Very light workload
