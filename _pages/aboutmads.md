@@ -48,8 +48,8 @@ Winter 2021 Cohort
                     <li><a href="#siads-515-efficient-data-processing">SIADS 515 Efficient Data Processing</a></li>
                     <li><a href="#siads-516-big-data-scalable-data-processing">SIADS 516 Big Data Scalable Data Processing</a></li>
                     <li><a href="#siads-542-supervised-learning">SIADS 542 Supervised Learning</a></li>
-                    <li><a href="#SIADS-543-Unsupervised-Learning">SIADS 543 Unsupervised Learning</a></li>
-                    <li><a href="#SIADS-630-Causal-Inference">SIADS 630 Causal Inference</a></li>
+                    <li><a href="#siads-543-unsupervised-learning">SIADS 543 Unsupervised Learning</a></li>
+                    <li><a href="#siads-630-causal-inference">SIADS 630 Causal Inference</a></li>
                     <li><a href="#siads-642-deep-learning">SIADS 642 Deep Learning</a></li>
                     <li><a href="#siads-523-communicating-data-science-results">SIADS 523 Communicating Data Science Results</a></li>
                 </ul>
