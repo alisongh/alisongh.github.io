@@ -48,6 +48,7 @@ Winter 2021 Cohort
                     <li><a href="#siads-515-efficient-data-processing">SIADS 515 Efficient Data Processing</a></li>
                     <li><a href="#siads-516-big-data-scalable-data-processing">SIADS 516 Big Data Scalable Data Processing</a></li>
                     <li><a href="#siads-542-supervised-learning">SIADS 542 Supervised Learning</a></li>
+                    <li><a href="#SIADS-543-Unsupervised-Learning">SIADS 543 Unsupervised Learning</a></li>
                     <li><a href="#siads-642-deep-learning">SIADS 642 Deep Learning</a></li>
                     <li><a href="#siads-523-communicating-data-science-results">SIADS 523 Communicating Data Science Results</a></li>
                 </ul>
@@ -154,6 +155,12 @@ Full Score: 🌟🌟🌟🌟🌟
 * Medium coding load (Python; Scikit-learn; Pandas; Numpy)
 * Score: 🌟🌟
 * This course is the same course on Coursera, Applied Data Science with Python Specialization, which costs USD79/month and approx. 34 hours to complete. I'm satisfied with the structure of the course and assignments. However, I'm disappointed with how the school indiscriminately imitates the low-tuition specialization courses to the high-tuition graduate program. Again, comparing USD79/month and USD950/credit (one month, in-state) and USD1,267/credit (one month, out-of-state). I would not say I like how they loot their students' money without adding valuable information, knowledge, and skills. 
+
+### SIADS 543 Unsupervised Learning
+* Medium workload
+* Medium coding load (Python; Scikit-learn; Pandas; Numpy)
+* Score: 🌟🌟🌟
+* This is a decent unsupervised learning course. The assignments are not hard and there's not many students asked questions during the course. The instructor and TAs worked very well. They answered questions timely and held OHs responsibly. However, there's still a lot of information and materials in PCA and feature engineering areas could be taught. PCA is a core section of Machine Learning and there's no single course teaching it. 
 
 ### SIADS 642 Deep Learning
 * Very light workload
