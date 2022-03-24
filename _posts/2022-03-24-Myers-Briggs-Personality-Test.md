@@ -2,7 +2,7 @@
 layout: post
 title: Myers Briggs Personality Test - ENTJ
 date: 2022-03-24
-image: '/images/08.jpg'
+image: '/images/21.jpg'
 tags: [personality, commander]
 ---
 
