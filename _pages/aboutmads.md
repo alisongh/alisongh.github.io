@@ -54,6 +54,7 @@ Winter 2021 Cohort
                     <li><a href="#siads-523-communicating-data-science-results">SIADS 523 Communicating Data Science Results</a></li>
                     <li><a href="#siads-524-presenting-uncertainty">SIADS 524 Presenting Uncertainty</a></li>
                     <li><a href="#siads-632-data-mining-ii">SIADS 632 Data Mining II</a></li>
+                    <li><a href="#siads-643-machine-learning-pipeline">SIADS 643 Machine Learning Pipeline</a></li>
                 </ul>
             </li>
         </ul>
@@ -191,6 +192,12 @@ Full Score: 🌟🌟🌟🌟🌟
 
 ### SIADS 632 Data Mining II
 * Heavy to very heavy workload
-* Heavy to very heavy coding laod (Python; Pandas; Python Class/Object)
+* Heavy to very heavy coding load (Python; Pandas; Python Class/Object)
 * Score: 🌟🌟🌟🌟
 * This is an extremely time-consuming course. Do not take this course with other courses. I rated it four stars because the auto grade is awful. Sometimes, I fought with auto grade instead of coding a real thing, and there's one time that my coding was entirely correct, but the auto grade gave a "Partial credit; passed some but not all of the tests" error. The instructor and TAs did not explain this situation reasonably and just adjusted grades. Additionally, they did not answer questions timely on the Slack course channel. You HAVE TO ask them privately. This is inconvenient and inefficient because I always check the course channel first and see if someone has already asked my questions. However, this course trained a lot of coding skills. 
+
+### SIADS 643 Machine Learning Pipeline
+* Light to medium workload
+* Light to medium coding load (Git; Python)
+* Score: 🌟🌟🌟🌟
+* I should take this course at the beginning of the program if possible because it taught very useful knowledge and skills regarding Git and I would manage my GitHub account better. Basically, 643 taught the flow of data within an enterprise and basic functions of and use Git. A lot of "Git push". I would give five stars if they enrich the course. The instrcutor and TA, Michael Hess and Kris Steinhoff, are very helpful and answered questions quickly. 
