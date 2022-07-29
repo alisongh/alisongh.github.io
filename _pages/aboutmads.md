@@ -4,13 +4,15 @@ title: MADS
 permalink: /aboutmads/
 image: '/images/02.jpg'
 ---
+![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=aboutmad)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alisongh/MADS/HEAD)
 
 # MADS
 Master of Applied Data Science by University of Michigan
 
 Winter 2021 Cohort
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alisongh/MADS/HEAD)
+
 <style>
     #table-of-contents {
       position: fixed;
@@ -18,7 +20,7 @@ Winter 2021 Cohort
       top: 0;
       background-color:#FFF;
     }
-
+    
     #toc #full { display: none; } /* Hide the full TOC by default */
 
     #toc:hover #full{
